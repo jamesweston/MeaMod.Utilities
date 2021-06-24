@@ -74,7 +74,7 @@ namespace MeaMod.Utilities
             catch (Exception ex)
             {
                 Console.WriteLine(string.Concat("MeaMod.Utilities.RegistrySettings.GetBooleanSetting : Exception" + System.Environment.NewLine + "", ex.Message));
-                throw ex;
+                throw;
             }
 
             return flag;
@@ -101,7 +101,7 @@ namespace MeaMod.Utilities
             catch (Exception ex)
             {
                 Console.WriteLine(string.Concat("MeaMod.Utilities.RegistrySettings.GetBooleanLMSetting : Exception" + System.Environment.NewLine + "", ex.Message));
-                throw ex;
+                throw;
             }
 
             return flag;
@@ -123,7 +123,7 @@ namespace MeaMod.Utilities
             catch (Exception exception)
             {
                 Console.WriteLine(string.Concat("MeaMod.Utilities.RegistrySettings.GetSetting : Exception" + System.Environment.NewLine + "", exception.Message));
-                throw exception;
+                throw;
             }
 
             return str;
@@ -145,7 +145,7 @@ namespace MeaMod.Utilities
             catch (Exception exception)
             {
                 Console.WriteLine(string.Concat("MeaMod.Utilities.RegistrySettings.GetSettingLM : Exception" + System.Environment.NewLine + "", exception.Message));
-                throw exception;
+                throw;
             }
 
             return str;
@@ -167,7 +167,7 @@ namespace MeaMod.Utilities
             catch (Exception exception)
             {
                 Console.WriteLine(string.Concat("MeaMod.Utilities.RegistrySettings.GetInteger: Exception" + System.Environment.NewLine + "", exception.Message));
-                throw exception;
+                throw;
             }
 
             return inti;
@@ -189,7 +189,7 @@ namespace MeaMod.Utilities
             catch (Exception exception)
             {
                 Console.WriteLine(string.Concat("MeaMod.Utilities.RegistrySettings.GetIntegerLM: Exception" + System.Environment.NewLine + "", exception.Message));
-                throw exception;
+                throw;
             }
 
             return inti;

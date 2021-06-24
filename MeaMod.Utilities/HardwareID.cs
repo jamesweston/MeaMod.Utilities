@@ -3,7 +3,7 @@ using System.Management;
 
 namespace MeaMod.Utilities
 {
-    public sealed class HardwareID
+    public class HardwareID
     {
         public static string GetHardwareID()
         {

@@ -4,17 +4,17 @@
     <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
     <Company>MeaMod Group</Company>
     <Copyright>Copyright © 2021 James Weston (MeaMod Group)</Copyright>
-    <Authors>meamod;jamesweston</Authors>
+    <Authors>MeaMod Group</Authors>
     <Description>Useful utilities and classes</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.0.22.1715</AssemblyVersion>
-    <FileVersion>1.0.22.1715</FileVersion>
+    <AssemblyVersion>1.0.23.1740</AssemblyVersion>
+    <FileVersion>1.0.23.1740</FileVersion>
     <PackageProjectUrl>https://github.com/meamod/MeaMod.Utilities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/meamod/MeaMod.Utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>utilities</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.0.22</Version>
+    <Version>1.0.23</Version>
     <NeutralLanguage>en-GB</NeutralLanguage>
   </PropertyGroup>
 

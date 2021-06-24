@@ -6,6 +6,14 @@
 Install-Package MeaMod.Utilities
 ```
 
+# MeaMod.Utilities.UI.WinForms
+
+[![NuGet version (MeaMod.Utilities.UI.WinForms)](https://img.shields.io/nuget/v/MeaMod.Utilities.UI.WinForms.svg)](https://www.nuget.org/packages/MeaMod.Utilities.UI.WinForms/) 
+
+```
+Install-Package MeaMod.Utilities.UI.WinForms
+```
+
 ## Overview
 
 MeaMod.Utilities is a collection of useful utilities and classes for .NET development

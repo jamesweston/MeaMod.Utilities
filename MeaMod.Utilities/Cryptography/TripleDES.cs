@@ -2,7 +2,7 @@
 
 namespace MeaMod.Utilities.Cryptography
 {
-    class TripleDES
+    public class TripleDES
     {
         public static string EncryptTripleDES(string sIn, string sKey)
         {

@@ -7,7 +7,7 @@ namespace MeaMod.Utilities
     /// AuthenticodeTools class.
     /// </summary>
     /// <see cref="http://stackoverflow.com/a/6597017/1837988"/>
-    internal static class AuthenticodeTools
+    public static class AuthenticodeTools
 	{
 		[DllImport("Wintrust.dll", PreserveSig = true, SetLastError = false)]
 		private static extern uint WinVerifyTrust(IntPtr hWnd, IntPtr pgActionID, IntPtr pWinTrustData);

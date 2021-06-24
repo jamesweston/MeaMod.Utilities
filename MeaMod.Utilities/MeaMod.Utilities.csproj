@@ -7,14 +7,14 @@
     <Authors>meamod;jamesweston</Authors>
     <Description>Useful utilities and classes</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.0.21.1704</AssemblyVersion>
-    <FileVersion>1.0.21.1704</FileVersion>
+    <AssemblyVersion>1.0.22.1715</AssemblyVersion>
+    <FileVersion>1.0.22.1715</FileVersion>
     <PackageProjectUrl>https://github.com/meamod/MeaMod.Utilities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/meamod/MeaMod.Utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>utilities</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.0.21</Version>
+    <Version>1.0.22</Version>
     <NeutralLanguage>en-GB</NeutralLanguage>
   </PropertyGroup>
 

@@ -3,7 +3,7 @@ using System.Text;
 
 namespace MeaMod.Utilities.Cryptography
 {
-    class Hash
+    public class Hash
     {
         public static string MD5(string strToEncrypt)
         {

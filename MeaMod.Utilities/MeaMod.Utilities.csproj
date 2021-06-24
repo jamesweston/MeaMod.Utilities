@@ -2,19 +2,20 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net45</TargetFrameworks>
-    <Company>James Weston (MeaMod Group)</Company>
+    <Company>MeaMod Group</Company>
     <Copyright>Copyright © 2021 James Weston (MeaMod Group)</Copyright>
-    <Authors>James Weston</Authors>
-    <Description>Utilities Library</Description>
+    <Authors>meamod;jamesweston</Authors>
+    <Description>Useful utilities and classes</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.0.16.1606</AssemblyVersion>
-    <FileVersion>1.0.16.1606</FileVersion>
-    <PackageProjectUrl>https://github.com/jamesweston/MeaMod.Utilities</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/jamesweston/MeaMod.Utilities</RepositoryUrl>
+    <AssemblyVersion>1.0.21.1704</AssemblyVersion>
+    <FileVersion>1.0.21.1704</FileVersion>
+    <PackageProjectUrl>https://github.com/meamod/MeaMod.Utilities</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/meamod/MeaMod.Utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>utilities</PackageTags>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.16</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>1.0.21</Version>
+    <NeutralLanguage>en-GB</NeutralLanguage>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">

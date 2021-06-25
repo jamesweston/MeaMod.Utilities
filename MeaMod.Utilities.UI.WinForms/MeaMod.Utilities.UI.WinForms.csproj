@@ -6,16 +6,16 @@
     <Company>MeaMod Group</Company>
     <Copyright>Copyright © 2021 James Weston (MeaMod Group)</Copyright>
     <Authors>MeaMod Group</Authors>
-    <Description>MeaMod.Utilities.UI.WinForms is a collection of useful winForms controls for .NET development</Description>
+    <Description>MeaMod.Utilities.UI.WinForms is a collection of useful WinForms controls for .NET development</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.0.41.2310</AssemblyVersion>
-    <FileVersion>1.0.41.2310</FileVersion>
+    <AssemblyVersion>1.0.43.0911</AssemblyVersion>
+    <FileVersion>1.0.43.0911</FileVersion>
     <PackageProjectUrl>https://github.com/meamod/MeaMod.Utilities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/meamod/MeaMod.Utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>utilities controls</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.0.41</Version>
+    <Version>1.0.43</Version>
     <NeutralLanguage>en-GB</NeutralLanguage>
   </PropertyGroup>
 

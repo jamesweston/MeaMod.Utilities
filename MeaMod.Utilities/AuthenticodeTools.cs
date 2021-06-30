@@ -3,11 +3,12 @@ using System.Runtime.InteropServices;
 
 namespace MeaMod.Utilities
 {
-    /// <summary>
-    /// AuthenticodeTools class.
-    /// </summary>
-    /// <see cref="http://stackoverflow.com/a/6597017/1837988"/>
-    public static class AuthenticodeTools
+	/// <summary>
+	/// AuthenticodeTools class. 
+	/// <para><see href="http://stackoverflow.com/a/6597017/1837988"/></para>
+	/// <para>Licence: CC BY-SA 3.0</para>
+	/// </summary>
+	public static class AuthenticodeTools
 	{
 		[DllImport("Wintrust.dll", PreserveSig = true, SetLastError = false)]
 		private static extern uint WinVerifyTrust(IntPtr hWnd, IntPtr pgActionID, IntPtr pWinTrustData);
@@ -39,9 +40,12 @@ namespace MeaMod.Utilities
 			return result;
 		}
 
-		public static bool IsTrusted(string fileName)
+		/// <summary>Check if <paramref name="filepath"/> has a valid Authenticode certificate</summary>
+		/// <param name="filepath"></param>
+		/// <returns>Boolean if file has valid Authenticode certificate</returns>
+		public static bool IsTrusted(string filepath)
 		{
-			return WinVerifyTrust(fileName) == 0;
+			return WinVerifyTrust(filepath) == 0;
 		}
 	}
 

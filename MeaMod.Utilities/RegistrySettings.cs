@@ -3,68 +3,70 @@ using System;
 
 namespace MeaMod.Utilities
 {
+    /// <summary>The RegistrySettings class contains methods to access the Windows registry for getting, creating, updating and deleting registry values</summary>
     public class RegistrySettings
     {
-        /// <summary>This method Deletes <paramref name="Name"/>  from to the current user registry located in <paramref name="Base"/> / <paramref name="AppName"/></summary>
-        /// <param name="AppName">Name of the SubKey that <param name="Name"> is located in under <paramref name="Base"/> SubKey</param>
-        /// <param name="Name">Name of registry value to delete</param>
-        /// <param name="Base">Base SubKey and should look like SOFTWARE\MeaModGroup\</param>
-        public static void DeleteSetting(string AppName, string Name, string Base)
+        /// <summary>This method deletes a value from to the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of registry value to delete</param>
+        public static void DeleteSetting(string BaseKey,string AppNameSubKey, string ValueName)
         {
             try
             {
-                var registryKey = Registry.CurrentUser.CreateSubKey(string.Concat(Base, AppName));
-                registryKey.DeleteValue(Name);
+                var registryKey = Registry.CurrentUser.CreateSubKey(string.Concat(BaseKey, AppNameSubKey));
+                registryKey.DeleteValue(ValueName);
                 registryKey.Close();
             }
             catch (NullReferenceException)
             {
+                // Already removed
             }
-            // Already removed
             catch (Exception exception1)
             {
                 var exception = exception1;
-                Console.WriteLine(string.Concat("MeaMod.Utilities.RegistrySettings.DeleteSetting : Exception" + System.Environment.NewLine + "", exception.Message));
+                Console.WriteLine("MeaMod.Utilities.RegistrySettings.DeleteSetting : Exception" + System.Environment.NewLine + exception.Message);
                 throw exception;
             }
         }
 
-        /// <summary>This method Deletes <paramref name="Name"/>  from to the local machine registry located in <paramref name="Base"/> / <paramref name="AppName"/></summary>
-        /// <param name="AppName">Name of the SubKey that <param name="Name"> is located in under <paramref name="Base"/> SubKey</param>
-        /// <param name="Name">Name of registry value to delete</param>
-        /// <param name="Base">Base SubKey and should look like SOFTWARE\MeaModGroup\</param>
-        public static void DeleteSettingLM(string AppName, string Name, string Base)
+        /// <summary>This method deletes a value from to the local machine registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of registry value to delete</param>
+        public static void DeleteSettingLM(string BaseKey, string AppNameSubKey, string ValueName)
         {
             try
             {
-                var registryKey = Registry.LocalMachine.CreateSubKey(string.Concat(Base, AppName));
-                registryKey.DeleteValue(Name);
+                var registryKey = Registry.LocalMachine.CreateSubKey(string.Concat(BaseKey, AppNameSubKey));
+                registryKey.DeleteValue(ValueName);
                 registryKey.Close();
             }
             catch (NullReferenceException)
             {
+                // Already removed
             }
-            // Already removed
             catch (Exception exception1)
             {
                 var exception = exception1;
-                Console.WriteLine(string.Concat("MeaMod.Utilities.RegistrySettings.DeleteSetting : Exception" + System.Environment.NewLine + "", exception.Message));
+                Console.WriteLine("MeaMod.Utilities.RegistrySettings.DeleteSetting : Exception" + System.Environment.NewLine + exception.Message);
                 throw exception;
             }
         }
 
-        /// <summary>This method get <paramref name="Name"/> as a boolean from to the current user registry located in <paramref name="Base"/> / <paramref name="AppName"/></summary>
-        /// <param name="AppName">Name of the SubKey that <param name="Name"> is located in under <paramref name="Base"/> SubKey</param>
-        /// <param name="Name">Name of registry value to get</param>
-        /// <param name="Base">Base SubKey and should look like SOFTWARE\MeaModGroup\</param>
-        /// <param name="Default">Default value is <param name="Name"> does not exist</param>
-        public static bool GetBooleanSetting(string AppName, string Name, string Base, bool Default = false)
+        /// <summary>This method gets <paramref name="ValueName"/> as a boolean from the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value to retrieve</param>
+        /// <param name="DefaultValue">Default value if <paramref name="ValueName"/> does not exist</param>
+        /// <returns>Returns boolean of ValueName</returns>
+        public static bool GetBooleanSetting(string BaseKey,string AppNameSubKey, string ValueName, bool DefaultValue = false)
         {
-            bool flag = Default;
+            bool flag = DefaultValue;
             try
             {
-                var registryKey = Registry.CurrentUser.OpenSubKey(string.Concat(Base, AppName), RegistryKeyPermissionCheck.ReadSubTree);
-                flag = Convert.ToBoolean(registryKey.GetValue(Name));
+                var registryKey = Registry.CurrentUser.OpenSubKey(string.Concat(BaseKey, AppNameSubKey), RegistryKeyPermissionCheck.ReadSubTree);
+                flag = Convert.ToBoolean(registryKey.GetValue(ValueName));
                 registryKey.Close();
             }
             catch (NullReferenceException)
@@ -80,18 +82,19 @@ namespace MeaMod.Utilities
             return flag;
         }
 
-        /// <summary>This method get <paramref name="Name"/> as a boolean from to the local machine registry located in <paramref name="Base"/> / <paramref name="AppName"/></summary>
-        /// <param name="AppName">Name of the SubKey that <param name="Name"> is located in under <paramref name="Base"/> SubKey</param>
-        /// <param name="Name">Name of registry value to get</param>
-        /// <param name="Base">Base SubKey and should look like SOFTWARE\MeaModGroup\</param>
-        /// <param name="Default">Default value is <param name="Name"> does not exist</param>
-        public static bool GetBooleanSettingLM(string AppName, string Name, string Base, bool Default = false)
+        /// <summary>This method gets <paramref name="ValueName"/> as a boolean from the local machine registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value to retrieve</param>
+        /// <param name="DefaultValue">Default value if <paramref name="ValueName"/> does not exist</param>
+        /// <returns>Returns boolean of ValueName</returns>
+        public static bool GetBooleanSettingLM(string BaseKey, string AppNameSubKey, string ValueName, bool DefaultValue = false)
         {
-            bool flag = Default;
+            bool flag = DefaultValue;
             try
             {
-                var registryKey = Registry.LocalMachine.OpenSubKey(string.Concat(Base, AppName), RegistryKeyPermissionCheck.ReadSubTree);
-                flag = Convert.ToBoolean(registryKey.GetValue(Name));
+                var registryKey = Registry.LocalMachine.OpenSubKey(string.Concat(BaseKey, AppNameSubKey), RegistryKeyPermissionCheck.ReadSubTree);
+                flag = Convert.ToBoolean(registryKey.GetValue(ValueName));
                 registryKey.Close();
             }
             catch (NullReferenceException)
@@ -107,13 +110,18 @@ namespace MeaMod.Utilities
             return flag;
         }
 
-        public static string GetSetting(string AppName, string Name, string Base)
+        /// <summary>This method gets <paramref name="ValueName"/> as a string from the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value to retrieve</param>
+        /// <returns>Returns string of ValueName</returns>
+        public static string GetSetting(string BaseKey, string AppNameSubKey, string ValueName)
         {
             string str = "";
             try
             {
-                var registryKey = Registry.CurrentUser.OpenSubKey(string.Concat(Base, AppName), RegistryKeyPermissionCheck.ReadSubTree);
-                str = registryKey.GetValue(Name).ToString();
+                var registryKey = Registry.CurrentUser.OpenSubKey(string.Concat(BaseKey, AppNameSubKey), RegistryKeyPermissionCheck.ReadSubTree);
+                str = registryKey.GetValue(ValueName).ToString();
                 registryKey.Close();
             }
             catch (NullReferenceException)
@@ -129,13 +137,18 @@ namespace MeaMod.Utilities
             return str;
         }
 
-        public static string GetSettingLM(string AppName, string Name, string Base)
+        /// <summary>This method gets <paramref name="ValueName"/> as a string from the current user registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value to retrieve</param>
+        /// <returns>Returns string of ValueName</returns>
+        public static string GetSettingLM(string BaseKey, string AppNameSubKey, string ValueName)
         {
             string str = "";
             try
             {
-                var registryKey = Registry.LocalMachine.OpenSubKey(string.Concat(Base, AppName), RegistryKeyPermissionCheck.ReadSubTree);
-                str = registryKey.GetValue(Name).ToString();
+                var registryKey = Registry.LocalMachine.OpenSubKey(string.Concat(BaseKey, AppNameSubKey), RegistryKeyPermissionCheck.ReadSubTree);
+                str = registryKey.GetValue(ValueName).ToString();
                 registryKey.Close();
             }
             catch (NullReferenceException)
@@ -151,13 +164,18 @@ namespace MeaMod.Utilities
             return str;
         }
 
-        public static int GetInteger(string AppName, string Name, string Base)
+        /// <summary>This method gets <paramref name="ValueName"/> as a integer from the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value to retrieve</param>
+        /// <returns>Returns integer of ValueName</returns>
+        public static int GetInteger(string BaseKey, string AppNameSubKey, string ValueName)
         {
             int inti = 0;
             try
             {
-                var registryKey = Registry.CurrentUser.OpenSubKey(string.Concat(Base, AppName), RegistryKeyPermissionCheck.ReadSubTree);
-                inti = int.Parse((string)registryKey.GetValue(Name));
+                var registryKey = Registry.CurrentUser.OpenSubKey(string.Concat(BaseKey, AppNameSubKey), RegistryKeyPermissionCheck.ReadSubTree);
+                inti = int.Parse((string)registryKey.GetValue(ValueName));
                 registryKey.Close();
             }
             catch (NullReferenceException)
@@ -173,13 +191,18 @@ namespace MeaMod.Utilities
             return inti;
         }
 
-        public static int GetIntegerLM(string AppName, string Name, string Base)
+        /// <summary>This method gets <paramref name="ValueName"/> as a integer from the local machine registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value to retrieve</param>
+        /// <returns>Returns integer of ValueName</returns>
+        public static int GetIntegerLM(string BaseKey,string AppNameSubKey, string ValueName)
         {
             int inti = 0;
             try
             {
-                var registryKey = Registry.LocalMachine.OpenSubKey(string.Concat(Base, AppName), RegistryKeyPermissionCheck.ReadSubTree);
-                inti = int.Parse((string)registryKey.GetValue(Name));
+                var registryKey = Registry.LocalMachine.OpenSubKey(string.Concat(BaseKey, AppNameSubKey), RegistryKeyPermissionCheck.ReadSubTree);
+                inti = int.Parse((string)registryKey.GetValue(ValueName));
                 registryKey.Close();
             }
             catch (NullReferenceException)
@@ -195,15 +218,18 @@ namespace MeaMod.Utilities
             return inti;
         }
 
-        // ----- Save Entry -----
-
-        public static void SaveBooleanSetting(string AppName, string Name, bool Value, string Base)
+        /// <summary>This method saves <paramref name="ValueName"/> as a boolean to the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value</param>
+        /// <param name="Value">Value to be saved as boolean</param>
+        public static void SaveBooleanSetting(string BaseKey, string AppNameSubKey, string ValueName, bool Value)
         {
             try
             {
-                string str = string.Concat(Base, AppName);
+                string str = string.Concat(BaseKey, AppNameSubKey);
                 var registryKey = Registry.CurrentUser.CreateSubKey(str);
-                registryKey.SetValue(Name, Value);
+                registryKey.SetValue(ValueName, Value);
                 registryKey.Close();
             }
             catch (Exception exception1)
@@ -214,13 +240,18 @@ namespace MeaMod.Utilities
             }
         }
 
-        public static void SaveBooleanSettingLM(string AppName, string Name, bool Value, string Base)
+        /// <summary>This method saves <paramref name="ValueName"/> as a boolean to the local machine registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value</param>
+        /// <param name="Value">Value to be saved as boolean</param>
+        public static void SaveBooleanSettingLM(string BaseKey, string AppNameSubKey, string ValueName, bool Value)
         {
             try
             {
-                string str = string.Concat(Base, AppName);
+                string str = string.Concat(BaseKey, AppNameSubKey);
                 var registryKey = Registry.LocalMachine.CreateSubKey(str);
-                registryKey.SetValue(Name, Value);
+                registryKey.SetValue(ValueName, Value);
                 registryKey.Close();
             }
             catch (Exception exception1)
@@ -231,13 +262,18 @@ namespace MeaMod.Utilities
             }
         }
 
-        public static void SaveSetting(string AppName, string Name, string Value, string Base)
+        /// <summary>This method saves <paramref name="ValueName"/> as a string to the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base Subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value</param>
+        /// <param name="Value">Value to be saved as string</param>
+        public static void SaveSetting(string BaseKey, string AppNameSubKey, string ValueName, string Value)
         {
             try
             {
-                string str = string.Concat(Base, AppName);
+                string str = string.Concat(BaseKey, AppNameSubKey);
                 var registryKey = Registry.CurrentUser.CreateSubKey(str);
-                registryKey.SetValue(Name, Value, RegistryValueKind.String);
+                registryKey.SetValue(ValueName, Value, RegistryValueKind.String);
                 registryKey.Close();
             }
             catch (Exception exception1)
@@ -248,13 +284,18 @@ namespace MeaMod.Utilities
             }
         }
 
-        public static void SaveSettingLM(string AppName, string Name, string Value, string Base)
+        /// <summary>This method saves <paramref name="ValueName"/> as a string to the local machine registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base Subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value</param>
+        /// <param name="Value">Value to be saved as string</param>
+        public static void SaveSettingLM(string BaseKey, string AppNameSubKey, string ValueName, string Value)
         {
             try
             {
-                string str = string.Concat(Base, AppName);
+                string str = string.Concat(BaseKey, AppNameSubKey);
                 var registryKey = Registry.LocalMachine.CreateSubKey(str);
-                registryKey.SetValue(Name, Value, RegistryValueKind.String);
+                registryKey.SetValue(ValueName, Value, RegistryValueKind.String);
                 registryKey.Close();
             }
             catch (Exception exception1)
@@ -265,13 +306,18 @@ namespace MeaMod.Utilities
             }
         }
 
-        public static void SaveInteger(string AppName, string Name, int Value, string Base)
+        /// <summary>This method saves <paramref name="ValueName"/> as a integer to the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base Subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value</param>
+        /// <param name="Value">Value to be saved as integer</param>
+        public static void SaveInteger(string BaseKey, string AppNameSubKey, string ValueName, int Value)
         {
             try
             {
-                string str = string.Concat(Base, AppName);
+                string str = string.Concat(BaseKey, AppNameSubKey);
                 var registryKey = Registry.CurrentUser.CreateSubKey(str);
-                registryKey.SetValue(Name, Value, RegistryValueKind.DWord);
+                registryKey.SetValue(ValueName, Value, RegistryValueKind.DWord);
                 registryKey.Close();
             }
             catch (Exception exception1)
@@ -282,13 +328,18 @@ namespace MeaMod.Utilities
             }
         }
 
-        public static void SaveIntegerLM(string AppName, string Name, int Value, string Base)
+        /// <summary>This method saves <paramref name="ValueName"/> as a integer to the local machine registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
+        /// <param name="BaseKey">Base Subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
+        /// <param name="ValueName">Name of value</param>
+        /// <param name="Value">Value to be saved as integer</param>
+        public static void SaveIntegerLM(string BaseKey, string AppNameSubKey, string ValueName, int Value)
         {
             try
             {
-                string str = string.Concat(Base, AppName);
+                string str = string.Concat(BaseKey, AppNameSubKey);
                 var registryKey = Registry.LocalMachine.CreateSubKey(str);
-                registryKey.SetValue(Name, Value, RegistryValueKind.DWord);
+                registryKey.SetValue(ValueName, Value, RegistryValueKind.DWord);
                 registryKey.Close();
             }
             catch (Exception exception1)

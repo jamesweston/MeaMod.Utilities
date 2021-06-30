@@ -7,8 +7,10 @@ namespace MeaMod.Utilities
 {
     /// <summary>
 	/// async ServiceController.WaitForStatus class
+    /// <para><see href="https://stackoverflow.com/a/38236239"/></para>
+    /// <para>Licence: CC BY-SA 3.0</para>
 	/// </summary>
-	/// <see cref="https://stackoverflow.com/questions/38236238"/>
+	/// 
     public static class ServiceControllerExtensions
     {
         public async static Task WaitForStatusAsync(this ServiceController controller, ServiceControllerStatus desiredStatus, TimeSpan timeout)

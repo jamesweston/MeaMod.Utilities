@@ -7,8 +7,9 @@ namespace MeaMod.Utilities.UI.WinForms
 {
     /// <summary>
     /// CircularProgressControl
+    /// <para><see href="https://www.codeproject.com/Articles/39235/Circular-Progress-Control-Mac-OS-X-style"/></para> 
+    /// <para>Licence: CPOL 1.02</para> 
     /// </summary>
-    /// <see cref="https://www.codeproject.com/Articles/39235/Circular-Progress-Control-Mac-OS-X-style"/>
     public partial class CircularProgressControl : UserControl
     {
         #region Constants

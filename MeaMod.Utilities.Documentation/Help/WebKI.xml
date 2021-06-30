@@ -1,0 +1,506 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AttemptTcpConnectionToPort method" Url="html/e5fca2ba-1a91-dbc8-5f18-850ad0685e34.htm" />
+  <HelpKINode Title="AttemptUdpConnectionToPort method" Url="html/964899b1-dca0-5d71-e07d-e15da6e40b9c.htm" />
+  <HelpKINode Title="AuthenticodeTools class">
+    <HelpKINode Title="AuthenticodeTools Class" Url="html/84cafecc-2f65-f4e1-81b1-5ecb384c294b.htm" />
+    <HelpKINode Title="methods" Url="html/b9856ed7-63ab-451e-522f-c94e88c60dd6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AuthenticodeTools.IsTrusted method" Url="html/35f63ed9-a2d5-1b36-21ef-60a8fe26a5df.htm" />
+  <HelpKINode Title="Cancel method">
+    <HelpKINode Title="ITraceRouteManager.Cancel Method " Url="html/f6489496-91e1-5696-35cf-00a9e6ab4890.htm" />
+    <HelpKINode Title="TraceRouteManager.Cancel Method " Url="html/91d2bd0f-55ca-f63d-1459-e29ec31b03bb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="cbSize field" Url="html/d1066eb6-d32c-a2df-6955-204afcc14073.htm" />
+  <HelpKINode Title="CheckSourceExists method" Url="html/43a4488e-5e6b-74cf-c5bf-f5ceca7825ac.htm" />
+  <HelpKINode Title="CurrentCancellationTokenSource property">
+    <HelpKINode Title="IPortScanManager.CurrentCancellationTokenSource Property " Url="html/36511054-a540-3bcd-a973-c19564b40ee5.htm" />
+    <HelpKINode Title="ITraceRouteManager.CurrentCancellationTokenSource Property " Url="html/bd2f81d6-eedf-61a3-b17d-4e5b8d609687.htm" />
+    <HelpKINode Title="PortScanManager.CurrentCancellationTokenSource Property " Url="html/b23dbd6f-3c9a-5c70-836a-b28f99d114ec.htm" />
+    <HelpKINode Title="TraceRouteManager.CurrentCancellationTokenSource Property " Url="html/84a45199-4070-fe14-07f6-c6b834309056.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DecryptTripleDES method" Url="html/52a85647-955a-412a-1dc2-5585b581cbff.htm" />
+  <HelpKINode Title="DeleteSetting method" Url="html/2f445367-142b-e12a-9d3a-579ec704ae12.htm" />
+  <HelpKINode Title="DeleteSettingLM method" Url="html/2fa96a01-6151-413e-4149-18a2f51f0835.htm" />
+  <HelpKINode Title="Detail property" Url="html/38b31050-da26-18ba-b5f9-fc16b62942ef.htm" />
+  <HelpKINode Title="dwTime field" Url="html/ab22a4af-1c2e-3144-03af-43f3ad843f93.htm" />
+  <HelpKINode Title="Each(Of TItem) method" Url="html/1ac4d949-6224-5cc5-8aae-dd117408c3a0.htm" />
+  <HelpKINode Title="Each&lt;TItem&gt; method" Url="html/1ac4d949-6224-5cc5-8aae-dd117408c3a0.htm" />
+  <HelpKINode Title="EncryptTripleDES method" Url="html/57d244e6-1f82-5ddc-a6cb-56cf7904e466.htm" />
+  <HelpKINode Title="EndPoint property">
+    <HelpKINode Title="IPortScanManager.EndPoint Property " Url="html/6c1cc7c0-41cc-e3af-c011-8e424ee4c44c.htm" />
+    <HelpKINode Title="PortScanManager.EndPoint Property " Url="html/2f555e93-3828-b55a-83ab-ec1901927479.htm" />
+    <HelpKINode Title="PortScanResultEventArgs.EndPoint Property " Url="html/ce922d38-3081-6e0e-7c4b-ffe066dde78d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EndPointName property" Url="html/ec019545-7b63-8b26-0351-8e8b9081d56c.htm" />
+  <HelpKINode Title="ExecutePing method" Url="html/7028382f-26e9-29d8-27ed-63d531833b50.htm" />
+  <HelpKINode Title="ExecuteTraceRoute method">
+    <HelpKINode Title="ITraceRouteManager.ExecuteTraceRoute Method " Url="html/53ef30a4-2a41-6581-731c-66e1dcabba3a.htm" />
+    <HelpKINode Title="TraceRouteManager.ExecuteTraceRoute Method " Url="html/580f851f-1d3a-a34f-e92a-ee0bdece3be1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ExecuteWhoisForDomain method">
+    <HelpKINode Title="IWhoisManager.ExecuteWhoisForDomain Method " Url="html/e03d1a0a-0e76-9762-7118-eb39cf7746a1.htm" />
+    <HelpKINode Title="WhoisManager.ExecuteWhoisForDomain Method " Url="html/feb45e0e-443a-8c20-ef09-5e16e6c0889f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FindWhoisServerInOutput method">
+    <HelpKINode Title="IWhoisManager.FindWhoisServerInOutput Method " Url="html/f24bfeef-2366-d36d-87dc-d50e7026bd76.htm" />
+    <HelpKINode Title="WhoisManager.FindWhoisServerInOutput Method " Url="html/61625801-1ee4-c292-d91a-af8d8c7e28f0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FormattedTextHeader property" Url="html/59f4f4a2-a4d2-375c-02b8-b721053986b0.htm" />
+  <HelpKINode Title="GetBooleanSetting method" Url="html/510af03c-c575-d56e-af53-42f74d6369a5.htm" />
+  <HelpKINode Title="GetBooleanSettingLM method" Url="html/25f74a32-8a64-2c9c-942b-e51291602a83.htm" />
+  <HelpKINode Title="GetDiskVolumeSerialNumber method" Url="html/f2dc78e2-8452-f7b7-dcdd-ae387a56a989.htm" />
+  <HelpKINode Title="GetHardwareID method" Url="html/121d672c-1011-2d95-ffd4-f277cac4c73c.htm" />
+  <HelpKINode Title="GetInteger method" Url="html/cd7ebfd7-4fc0-04c6-ff8e-e53e1200287b.htm" />
+  <HelpKINode Title="GetIntegerLM method" Url="html/9a32cb39-4f48-c342-87bb-989ca687471b.htm" />
+  <HelpKINode Title="GetLastInputInfo method" Url="html/066647c5-c126-ef17-2266-de1266c61a6e.htm" />
+  <HelpKINode Title="GetLastInputTime method" Url="html/b18d7262-274c-f875-1560-07acbc5c965c.htm" />
+  <HelpKINode Title="GetMACAddress method" Url="html/f6384d42-2c5d-c891-0801-c68fccb02746.htm" />
+  <HelpKINode Title="GetMotherboardID method" Url="html/b396ae91-9ef1-eb21-2f81-2f5a231de64f.htm" />
+  <HelpKINode Title="GetProcessorId method" Url="html/6fbfcdb7-ef83-6333-90ef-82897e48e9e2.htm" />
+  <HelpKINode Title="GetResponseTime method">
+    <HelpKINode Title="ITraceRouteManager.GetResponseTime Method " Url="html/7f2eed5b-87bc-a538-4c02-79a7e89ca273.htm" />
+    <HelpKINode Title="TraceRouteManager.GetResponseTime Method " Url="html/285d7d66-1d1a-bf84-4648-438039a929ab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetSetting method" Url="html/15e18207-121f-0cb9-5f13-018db2c094cd.htm" />
+  <HelpKINode Title="GetSettingLM method" Url="html/10f5afb4-d5f3-6577-418b-25d0b8c481e4.htm" />
+  <HelpKINode Title="HardwareID class">
+    <HelpKINode Title="HardwareID Class" Url="html/b6c91e5b-df78-1aa7-c4c3-6017d6c98e07.htm" />
+    <HelpKINode Title="constructor" Url="html/c298f5ca-fa96-7e13-3cf8-6e76f71c21c8.htm" />
+    <HelpKINode Title="methods" Url="html/4c1fca32-56cd-0f79-6fc0-878371d9adad.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HardwareID.GetDiskVolumeSerialNumber method" Url="html/f2dc78e2-8452-f7b7-dcdd-ae387a56a989.htm" />
+  <HelpKINode Title="HardwareID.GetHardwareID method" Url="html/121d672c-1011-2d95-ffd4-f277cac4c73c.htm" />
+  <HelpKINode Title="HardwareID.GetMACAddress method" Url="html/f6384d42-2c5d-c891-0801-c68fccb02746.htm" />
+  <HelpKINode Title="HardwareID.GetMotherboardID method" Url="html/b396ae91-9ef1-eb21-2f81-2f5a231de64f.htm" />
+  <HelpKINode Title="HardwareID.GetProcessorId method" Url="html/6fbfcdb7-ef83-6333-90ef-82897e48e9e2.htm" />
+  <HelpKINode Title="HardwareID.HardwareID constructor" Url="html/c298f5ca-fa96-7e13-3cf8-6e76f71c21c8.htm" />
+  <HelpKINode Title="Hash class">
+    <HelpKINode Title="Hash Class" Url="html/9e8a46ce-df8c-4c02-78bd-964318f268f2.htm" />
+    <HelpKINode Title="constructor" Url="html/ec50f049-6147-8d35-f916-ec213431002f.htm" />
+    <HelpKINode Title="methods" Url="html/4a1edab8-4fe6-ce1d-6abf-90ce03208fb4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Hash.Hash constructor" Url="html/ec50f049-6147-8d35-f916-ec213431002f.htm" />
+  <HelpKINode Title="Hash.MD5 method" Url="html/d5238c17-a5ec-2b10-1039-2229ca2b8ab9.htm" />
+  <HelpKINode Title="Hash.SHA1 method" Url="html/6d8c0f85-0b9d-2bd3-ceb7-4dc8c6affcdd.htm" />
+  <HelpKINode Title="Hash.SHA256 method" Url="html/8fe5f35d-ae5b-02fd-acab-d1d8ab9a2fcd.htm" />
+  <HelpKINode Title="Hash.SHA384 method" Url="html/9131367c-f5b4-d8a7-1222-9f6fde847a1a.htm" />
+  <HelpKINode Title="Hash.SHA512 method" Url="html/e9813dea-5a60-929b-c235-a3b06c534683.htm" />
+  <HelpKINode Title="HopNumber property" Url="html/5d25ddc7-32f5-1e73-4d76-16df78580dc6.htm" />
+  <HelpKINode Title="HostName property">
+    <HelpKINode Title="IPingManager.HostName Property " Url="html/72b8f72f-0596-eae3-4093-8a3c1f67c656.htm" />
+    <HelpKINode Title="PingManager.HostName Property " Url="html/a8c97582-5d7a-83c2-74cc-285ac434aa13.htm" />
+    <HelpKINode Title="TraceRouteHopDetail.HostName Property " Url="html/8ee34a74-d666-e95e-445e-dfeca9dbcabe.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IcmpPingException class">
+    <HelpKINode Title="IcmpPingException Class" Url="html/85503d0d-9f00-e389-9836-92dddcc6e43b.htm" />
+    <HelpKINode Title="constructor" Url="html/e75f1b74-c082-09a3-39cd-d4ddf236e486.htm" />
+    <HelpKINode Title="events" Url="html/ee99d3f9-ccbd-f8a6-3ee2-0d58b8aa7d6d.htm" />
+    <HelpKINode Title="methods" Url="html/fef29d08-c0ea-3839-f25a-abf636ea150f.htm" />
+    <HelpKINode Title="properties" Url="html/b72bb2a3-9286-4ef3-f833-c183903a971f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IcmpPingException.IcmpPingException constructor" Url="html/e75f1b74-c082-09a3-39cd-d4ddf236e486.htm" />
+  <HelpKINode Title="Idle enumeration member" Url="html/a32a1617-6934-91ba-a073-65968991ab15.htm" />
+  <HelpKINode Title="IEnumerableExtensions class">
+    <HelpKINode Title="IEnumerableExtensions Class" Url="html/5c5558f5-0df5-184c-b2c8-e318fc3aaca9.htm" />
+    <HelpKINode Title="methods" Url="html/91d07582-e449-d0c3-dae5-7d8f410029a7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IEnumerableExtensions.Each(Of TItem) method" Url="html/1ac4d949-6224-5cc5-8aae-dd117408c3a0.htm" />
+  <HelpKINode Title="IEnumerableExtensions.Each&lt;TItem&gt; method" Url="html/1ac4d949-6224-5cc5-8aae-dd117408c3a0.htm" />
+  <HelpKINode Title="INetworkManager interface" Url="html/d465f36b-9a82-6f97-0b81-9137e9945a4d.htm" />
+  <HelpKINode Title="IPAddress property" Url="html/a2bcf845-9297-4ca0-4db1-8e23b7db9a11.htm" />
+  <HelpKINode Title="IPingManager interface">
+    <HelpKINode Title="IPingManager Interface" Url="html/32974d73-766e-f510-90a1-1d24e29f2073.htm" />
+    <HelpKINode Title="events" Url="html/eaba8fef-c162-26f3-4c5d-a3b2991457a2.htm" />
+    <HelpKINode Title="methods" Url="html/ae14e5ce-3606-34c4-e3f7-f97ced6a2400.htm" />
+    <HelpKINode Title="properties" Url="html/4d0e0139-a172-595b-26a3-6f60c9be7c57.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPingManager.HostName property" Url="html/72b8f72f-0596-eae3-4093-8a3c1f67c656.htm" />
+  <HelpKINode Title="IPingManager.PingManagerStateChanged event" Url="html/ca5faea3-8627-da4c-fc16-2b4c7935a999.htm" />
+  <HelpKINode Title="IPingManager.PingResult event" Url="html/baaf0b15-1225-d640-0368-01580275d718.htm" />
+  <HelpKINode Title="IPingManager.Start method" Url="html/ff835f69-2d29-9c10-a6f3-2a724a62865e.htm" />
+  <HelpKINode Title="IPingManager.Stop method" Url="html/7e687794-d44e-fb9f-55ae-9a3251ae1ac3.htm" />
+  <HelpKINode Title="IPingManager.TimeBetweenPings property" Url="html/30ffc036-00c5-0fbd-8164-6f042d4b8216.htm" />
+  <HelpKINode Title="IPortScanManager interface">
+    <HelpKINode Title="IPortScanManager Interface" Url="html/9354a669-d157-b630-307a-efbe5944514a.htm" />
+    <HelpKINode Title="events" Url="html/a836bff2-175c-7596-3536-3397021670c6.htm" />
+    <HelpKINode Title="methods" Url="html/b8037fec-86f2-0cbc-618e-3e484b53a1ea.htm" />
+    <HelpKINode Title="properties" Url="html/7fc24ea9-913c-5072-3ab9-81f709d966e5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IPortScanManager.CurrentCancellationTokenSource property" Url="html/36511054-a540-3bcd-a973-c19564b40ee5.htm" />
+  <HelpKINode Title="IPortScanManager.EndPoint property" Url="html/6c1cc7c0-41cc-e3af-c011-8e424ee4c44c.htm" />
+  <HelpKINode Title="IPortScanManager.PortScanResult event" Url="html/e6fe5380-0ab2-8e8a-be0e-88d08e374108.htm" />
+  <HelpKINode Title="IPortScanManager.Start method" Url="html/20803b50-4cfc-86be-ba5f-fe8d3d9ebd58.htm" />
+  <HelpKINode Title="IPortScanManager.Stop method" Url="html/0031c15d-0848-469e-14d4-4f017ec0bfff.htm" />
+  <HelpKINode Title="IPortScanManager.Tasks property" Url="html/416bf6a3-29d9-cc20-b761-b358c85955f6.htm" />
+  <HelpKINode Title="IsLinux method" Url="html/956e445a-6744-5025-b037-c1a2a89d5116.htm" />
+  <HelpKINode Title="IsMacOS method" Url="html/c57b0c95-a918-23ef-9e4c-b58e2e50fe3f.htm" />
+  <HelpKINode Title="IsTrusted method" Url="html/35f63ed9-a2d5-1b36-21ef-60a8fe26a5df.htm" />
+  <HelpKINode Title="IsWindows method" Url="html/453fac2b-d622-77fc-58ea-d9d0aa78b8a6.htm" />
+  <HelpKINode Title="ITraceRouteManager interface">
+    <HelpKINode Title="ITraceRouteManager Interface" Url="html/ef85771c-12b1-ddc7-5edf-ba478b386820.htm" />
+    <HelpKINode Title="events" Url="html/4633423b-8eea-023e-6580-e1064895f5d3.htm" />
+    <HelpKINode Title="methods" Url="html/15c636f5-d621-6827-a508-b959fe598296.htm" />
+    <HelpKINode Title="properties" Url="html/5d0b9602-ad2e-87d8-83e2-66ae0669c79f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITraceRouteManager.Cancel method" Url="html/f6489496-91e1-5696-35cf-00a9e6ab4890.htm" />
+  <HelpKINode Title="ITraceRouteManager.CurrentCancellationTokenSource property" Url="html/bd2f81d6-eedf-61a3-b17d-4e5b8d609687.htm" />
+  <HelpKINode Title="ITraceRouteManager.ExecuteTraceRoute method" Url="html/53ef30a4-2a41-6581-731c-66e1dcabba3a.htm" />
+  <HelpKINode Title="ITraceRouteManager.GetResponseTime method" Url="html/7f2eed5b-87bc-a538-4c02-79a7e89ca273.htm" />
+  <HelpKINode Title="ITraceRouteManager.TraceRouteComplete event" Url="html/a47b4456-2565-ac58-754e-fd81d08d6587.htm" />
+  <HelpKINode Title="ITraceRouteManager.TraceRouteNodeFound event" Url="html/ca5d0d86-86d9-7d09-6a68-2a099350f01e.htm" />
+  <HelpKINode Title="IWhoisManager interface">
+    <HelpKINode Title="IWhoisManager Interface" Url="html/9ab103e4-2711-2a4d-f391-cdf329f49cd9.htm" />
+    <HelpKINode Title="methods" Url="html/b0664ccb-299b-da06-2581-6e281381ae9d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IWhoisManager.ExecuteWhoisForDomain method" Url="html/e03d1a0a-0e76-9762-7118-eb39cf7746a1.htm" />
+  <HelpKINode Title="IWhoisManager.FindWhoisServerInOutput method" Url="html/f24bfeef-2366-d36d-87dc-d50e7026bd76.htm" />
+  <HelpKINode Title="LastException property" Url="html/bf331ea3-5471-561d-b89a-50fd82ba4dde.htm" />
+  <HelpKINode Title="LASTINPUTINFO structure">
+    <HelpKINode Title="fields" Url="html/5150a9d2-f1fc-6972-c2cf-1edbcf8fae81.htm" />
+    <HelpKINode Title="methods" Url="html/88130d87-5b62-43d8-fa22-e3885d33edb5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogEvent class">
+    <HelpKINode Title="LogEvent Class" Url="html/58e5ec70-f096-8c7c-7e72-96433ce0e450.htm" />
+    <HelpKINode Title="constructor" Url="html/ead822fd-4eb4-9ed8-d6d9-d0587e99a869.htm" />
+    <HelpKINode Title="methods" Url="html/71da9b80-9e02-63a7-f45f-814903fd3ba3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogEvent.CheckSourceExists method" Url="html/43a4488e-5e6b-74cf-c5bf-f5ceca7825ac.htm" />
+  <HelpKINode Title="LogEvent.LogEvent constructor" Url="html/ead822fd-4eb4-9ed8-d6d9-d0587e99a869.htm" />
+  <HelpKINode Title="LogEvent.Write method" Url="html/4308975c-4448-df9c-7fff-f6c2640b191b.htm" />
+  <HelpKINode Title="LogEvent.WriteConsole method" Url="html/14acc5a7-a17b-e604-c295-a63be39b9603.htm" />
+  <HelpKINode Title="MD5 method" Url="html/d5238c17-a5ec-2b10-1039-2229ca2b8ab9.htm" />
+  <HelpKINode Title="MeaMod.Utilities namespace" Url="html/825db034-995b-91cb-18b9-d7d7772bb750.htm" />
+  <HelpKINode Title="MeaMod.Utilities.AuthenticodeTools class" Url="html/84cafecc-2f65-f4e1-81b1-5ecb384c294b.htm" />
+  <HelpKINode Title="MeaMod.Utilities.Cryptography namespace" Url="html/6685bb70-b6b2-fe23-f921-589901cf3317.htm" />
+  <HelpKINode Title="MeaMod.Utilities.Cryptography.Hash class" Url="html/9e8a46ce-df8c-4c02-78bd-964318f268f2.htm" />
+  <HelpKINode Title="MeaMod.Utilities.Cryptography.TripleDES class" Url="html/eeef1981-a046-6f75-9562-2368edd5d72f.htm" />
+  <HelpKINode Title="MeaMod.Utilities.HardwareID class" Url="html/b6c91e5b-df78-1aa7-c4c3-6017d6c98e07.htm" />
+  <HelpKINode Title="MeaMod.Utilities.LogEvent class" Url="html/58e5ec70-f096-8c7c-7e72-96433ce0e450.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools namespace" Url="html/f341df3d-7724-e1e3-0de1-76b336d8d1a8.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.Extensions namespace" Url="html/ca398c60-772a-0258-87b7-7040a952714b.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.Extensions.IEnumerableExtensions class" Url="html/5c5558f5-0df5-184c-b2c8-e318fc3aaca9.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.IcmpPing namespace" Url="html/f2ffb372-8892-77be-8185-48e924963acb.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.IcmpPing.IcmpPingException class" Url="html/85503d0d-9f00-e389-9836-92dddcc6e43b.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.IcmpPing.IPingManager interface" Url="html/32974d73-766e-f510-90a1-1d24e29f2073.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.IcmpPing.PingManager class" Url="html/5a6733f9-f3d7-68f6-7780-b29babf2482d.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.IcmpPing.PingManagerStateChangedEventArgs class" Url="html/b840a70a-4a3a-2d92-4b42-493b5ce45e71.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.IcmpPing.PingManagerStates enumeration" Url="html/a32a1617-6934-91ba-a073-65968991ab15.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.IcmpPing.PingResultEventArgs class" Url="html/53574ca5-a754-548c-3a9c-34c5a7d37deb.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.INetworkManager interface" Url="html/d465f36b-9a82-6f97-0b81-9137e9945a4d.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.NetworkToolsException class" Url="html/8e724390-fada-6903-6aa9-ae05d97c0f29.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.PortScan namespace" Url="html/2d106228-2ee8-a336-bb78-e17a909f2699.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.PortScan.IPortScanManager interface" Url="html/9354a669-d157-b630-307a-efbe5944514a.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.PortScan.PortScanException class" Url="html/d8b481f1-9d67-d5a3-d548-1c338552b215.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.PortScan.PortScanManager class" Url="html/694bded1-682c-4ca3-66b7-99460e92b48f.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.PortScan.PortScanner class" Url="html/f5539aa7-6679-f4cf-fa07-e5816eb77b20.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.PortScan.PortScanResultEventArgs class" Url="html/666a04a5-be28-62b2-f9cb-c0766a1c603f.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.PortScan.PortTypes enumeration" Url="html/2bf44a91-ea87-494c-0fe3-d2258c975760.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.TraceRoute namespace" Url="html/5254d3b4-00ea-6a01-593f-d670912c3ded.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.TraceRoute.ITraceRouteManager interface" Url="html/ef85771c-12b1-ddc7-5edf-ba478b386820.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.TraceRoute.TraceRouteCompleteEventArgs class" Url="html/1039c920-1108-4e17-9e9d-e0d97954ea39.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.TraceRoute.TraceRouteExceptionException class" Url="html/0cc1a799-9bc3-99c7-7eb0-5b00ed6f7f95.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.TraceRoute.TraceRouteHopDetail class" Url="html/a756600d-ee78-ec0a-2631-0afafc34282c.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.TraceRoute.TraceRouteManager class" Url="html/b3763d4b-0c59-915c-253a-c7cba3f89028.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.TraceRoute.TraceRouteNodeFoundEventArgs class" Url="html/265b0644-bc45-8033-344c-354d572af72b.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.Whois namespace" Url="html/76793561-0420-a0e0-5da4-3a88d8f8a2ee.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.Whois.IWhoisManager interface" Url="html/9ab103e4-2711-2a4d-f391-cdf329f49cd9.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.Whois.WhoisException class" Url="html/5ffa32f9-259a-0529-4028-b5d9383c9293.htm" />
+  <HelpKINode Title="MeaMod.Utilities.NetworkTools.Whois.WhoisManager class" Url="html/f64de5b8-ca45-7b08-edc2-1fb32ab3af1f.htm" />
+  <HelpKINode Title="MeaMod.Utilities.OperatingSystem class" Url="html/d04d19ae-a94f-c082-f103-e428d93e07fe.htm" />
+  <HelpKINode Title="MeaMod.Utilities.RegistrySettings class" Url="html/a077be24-df65-17dd-193f-d70827f89e04.htm" />
+  <HelpKINode Title="MeaMod.Utilities.ServiceControllerExtensions class" Url="html/5e1abaa3-50e7-6189-88a3-668399ff1ada.htm" />
+  <HelpKINode Title="MeaMod.Utilities.UserTimeout class" Url="html/c780b09b-ebec-c992-1ed8-f8c8b0f1accb.htm" />
+  <HelpKINode Title="MeaMod.Utilities.UserTimeout.LASTINPUTINFO structure" Url="html/6b73811c-07a8-b232-8400-00dd4edb7b29.htm" />
+  <HelpKINode Title="NetworkToolsException class">
+    <HelpKINode Title="NetworkToolsException Class" Url="html/8e724390-fada-6903-6aa9-ae05d97c0f29.htm" />
+    <HelpKINode Title="constructor" Url="html/2b273367-7b4b-a800-a37e-b2e88a438207.htm" />
+    <HelpKINode Title="events" Url="html/f5b85b7b-ef76-8611-6adc-c6eba129f2e4.htm" />
+    <HelpKINode Title="methods" Url="html/814b21c5-7df0-b4e3-07c0-5f6798ac1f1f.htm" />
+    <HelpKINode Title="properties" Url="html/1785c77a-0870-83d5-f038-071228aa385e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NetworkToolsException.NetworkToolsException constructor" Url="html/2b273367-7b4b-a800-a37e-b2e88a438207.htm" />
+  <HelpKINode Title="NewState property" Url="html/c23bbbd9-9ab0-2a98-1379-06cc60899fdf.htm" />
+  <HelpKINode Title="OnPingResult method" Url="html/9943674d-564d-a28f-06ad-338a36a468fa.htm" />
+  <HelpKINode Title="OnStateChangedEvent method" Url="html/41f353ab-59ef-199f-2168-5c94333d65c3.htm" />
+  <HelpKINode Title="OperatingSystem class">
+    <HelpKINode Title="OperatingSystem Class" Url="html/d04d19ae-a94f-c082-f103-e428d93e07fe.htm" />
+    <HelpKINode Title="methods" Url="html/c260f257-950d-60ec-d8f1-98ff7271cfe6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="OperatingSystem.IsLinux method" Url="html/956e445a-6744-5025-b037-c1a2a89d5116.htm" />
+  <HelpKINode Title="OperatingSystem.IsMacOS method" Url="html/c57b0c95-a918-23ef-9e4c-b58e2e50fe3f.htm" />
+  <HelpKINode Title="OperatingSystem.IsWindows method" Url="html/453fac2b-d622-77fc-58ea-d9d0aa78b8a6.htm" />
+  <HelpKINode Title="Pinging enumeration member" Url="html/a32a1617-6934-91ba-a073-65968991ab15.htm" />
+  <HelpKINode Title="PingManager class">
+    <HelpKINode Title="PingManager Class" Url="html/5a6733f9-f3d7-68f6-7780-b29babf2482d.htm" />
+    <HelpKINode Title="constructor" Url="html/01605838-1721-aeac-dc0a-6df93a53167d.htm" />
+    <HelpKINode Title="events" Url="html/eda21f17-d19c-ed02-11f7-38cbe04867c7.htm" />
+    <HelpKINode Title="methods" Url="html/75350c3e-56a5-b407-b85d-95f3de22a7aa.htm" />
+    <HelpKINode Title="properties" Url="html/4904616b-0f2f-d8e0-e22c-e8ff724d1db0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PingManager.ExecutePing method" Url="html/7028382f-26e9-29d8-27ed-63d531833b50.htm" />
+  <HelpKINode Title="PingManager.HostName property" Url="html/a8c97582-5d7a-83c2-74cc-285ac434aa13.htm" />
+  <HelpKINode Title="PingManager.OnPingResult method" Url="html/9943674d-564d-a28f-06ad-338a36a468fa.htm" />
+  <HelpKINode Title="PingManager.OnStateChangedEvent method" Url="html/41f353ab-59ef-199f-2168-5c94333d65c3.htm" />
+  <HelpKINode Title="PingManager.PingManager constructor" Url="html/01605838-1721-aeac-dc0a-6df93a53167d.htm" />
+  <HelpKINode Title="PingManager.PingManagerStateChanged event" Url="html/cb752201-1e33-a1c7-2ff9-661fad7331e4.htm" />
+  <HelpKINode Title="PingManager.PingResult event" Url="html/90f1c588-ec6e-b95c-6a18-36dd1f86806c.htm" />
+  <HelpKINode Title="PingManager.Start method" Url="html/993e2c84-505b-d073-8e8a-59ecb6bfea65.htm" />
+  <HelpKINode Title="PingManager.Stop method" Url="html/251504bc-e90a-d795-20fd-89e39dc456f6.htm" />
+  <HelpKINode Title="PingManager.TimeBetweenPings property" Url="html/8b5bde79-1435-2928-371d-85e14080f671.htm" />
+  <HelpKINode Title="PingManagerStateChanged event">
+    <HelpKINode Title="IPingManager.PingManagerStateChanged Event" Url="html/ca5faea3-8627-da4c-fc16-2b4c7935a999.htm" />
+    <HelpKINode Title="PingManager.PingManagerStateChanged Event" Url="html/cb752201-1e33-a1c7-2ff9-661fad7331e4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PingManagerStateChangedEventArgs class">
+    <HelpKINode Title="PingManagerStateChangedEventArgs Class" Url="html/b840a70a-4a3a-2d92-4b42-493b5ce45e71.htm" />
+    <HelpKINode Title="constructor" Url="html/74e31fcd-fd72-1f68-327a-6d6699bc4592.htm" />
+    <HelpKINode Title="methods" Url="html/2be04ab5-f8a0-e902-fb59-94231bba44b5.htm" />
+    <HelpKINode Title="properties" Url="html/cf7da7ae-86f9-2e68-68f1-97d4c94e3b09.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PingManagerStateChangedEventArgs.NewState property" Url="html/c23bbbd9-9ab0-2a98-1379-06cc60899fdf.htm" />
+  <HelpKINode Title="PingManagerStateChangedEventArgs.PingManagerStateChangedEventArgs constructor" Url="html/74e31fcd-fd72-1f68-327a-6d6699bc4592.htm" />
+  <HelpKINode Title="PingManagerStates enumeration" Url="html/a32a1617-6934-91ba-a073-65968991ab15.htm" />
+  <HelpKINode Title="PingResult event">
+    <HelpKINode Title="IPingManager.PingResult Event" Url="html/baaf0b15-1225-d640-0368-01580275d718.htm" />
+    <HelpKINode Title="PingManager.PingResult Event" Url="html/90f1c588-ec6e-b95c-6a18-36dd1f86806c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PingResultEventArgs class">
+    <HelpKINode Title="PingResultEventArgs Class" Url="html/53574ca5-a754-548c-3a9c-34c5a7d37deb.htm" />
+    <HelpKINode Title="constructor" Url="html/814adde5-f70f-491e-d0a0-cdfeafa7f307.htm" />
+    <HelpKINode Title="methods" Url="html/056fb1eb-977c-a29c-4e57-fa4ae38c81ef.htm" />
+    <HelpKINode Title="properties" Url="html/cc17ef18-45cc-ce5e-d416-3c1e576d9a6a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PingResultEventArgs.LastException property" Url="html/bf331ea3-5471-561d-b89a-50fd82ba4dde.htm" />
+  <HelpKINode Title="PingResultEventArgs.PingResultEventArgs constructor" Url="html/814adde5-f70f-491e-d0a0-cdfeafa7f307.htm" />
+  <HelpKINode Title="PingResultEventArgs.Reply property" Url="html/5f3a3dfc-963b-ccd5-757d-8aa66af12891.htm" />
+  <HelpKINode Title="PingResultEventArgs.Success property" Url="html/abc015cf-21ed-271b-713a-3122527718b4.htm" />
+  <HelpKINode Title="PingResultEventArgs.ToString method" Url="html/dfc7be3c-37fb-a904-1354-9a417b0ec238.htm" />
+  <HelpKINode Title="Port property">
+    <HelpKINode Title="PortScanner.Port Property " Url="html/e7940392-b107-3362-4df1-af35601048d4.htm" />
+    <HelpKINode Title="PortScanResultEventArgs.Port Property " Url="html/02a30dd5-ef0d-b47c-3c5d-dead81945fe1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PortScanException class">
+    <HelpKINode Title="PortScanException Class" Url="html/d8b481f1-9d67-d5a3-d548-1c338552b215.htm" />
+    <HelpKINode Title="constructor" Url="html/c84729b6-4c74-227c-83ba-dda9a7771860.htm" />
+    <HelpKINode Title="events" Url="html/7bfd40e1-f761-da5c-aac5-82feb80c5cff.htm" />
+    <HelpKINode Title="methods" Url="html/cafa951b-83b5-e84e-0971-493cf0592aa2.htm" />
+    <HelpKINode Title="properties" Url="html/4d218dc5-be8e-fc76-fffe-3a30bb7cd129.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PortScanException.PortScanException constructor" Url="html/c84729b6-4c74-227c-83ba-dda9a7771860.htm" />
+  <HelpKINode Title="PortScanManager class">
+    <HelpKINode Title="PortScanManager Class" Url="html/694bded1-682c-4ca3-66b7-99460e92b48f.htm" />
+    <HelpKINode Title="constructor" Url="html/ada01fad-8535-3265-8e2a-30cd3de61919.htm" />
+    <HelpKINode Title="events" Url="html/11837d14-4a12-559d-45f5-a1220d44d3c0.htm" />
+    <HelpKINode Title="methods" Url="html/116e8bf5-aeeb-4943-5f88-acb1a16fcd15.htm" />
+    <HelpKINode Title="properties" Url="html/4454cbcd-8c15-d2a8-570b-4c371826f450.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PortScanManager.CurrentCancellationTokenSource property" Url="html/b23dbd6f-3c9a-5c70-836a-b28f99d114ec.htm" />
+  <HelpKINode Title="PortScanManager.EndPoint property" Url="html/2f555e93-3828-b55a-83ab-ec1901927479.htm" />
+  <HelpKINode Title="PortScanManager.PortScanManager constructor" Url="html/ada01fad-8535-3265-8e2a-30cd3de61919.htm" />
+  <HelpKINode Title="PortScanManager.PortScanResult event" Url="html/8789773a-27a6-5942-df39-78bd4c8615e6.htm" />
+  <HelpKINode Title="PortScanManager.Start method" Url="html/042cf4fd-d54e-4336-9f25-b31f3998bd3f.htm" />
+  <HelpKINode Title="PortScanManager.Stop method" Url="html/ae111a50-1b8a-7dbf-6189-dff009cf2083.htm" />
+  <HelpKINode Title="PortScanManager.Tasks property" Url="html/4cc43e81-04bc-7b4c-a9a4-34566bcf18e1.htm" />
+  <HelpKINode Title="PortScanner class">
+    <HelpKINode Title="PortScanner Class" Url="html/f5539aa7-6679-f4cf-fa07-e5816eb77b20.htm" />
+    <HelpKINode Title="constructor" Url="html/9c6d750b-3162-d9d5-1872-ce921fce5138.htm" />
+    <HelpKINode Title="events" Url="html/3cead197-a8df-58af-10db-19941211b5f4.htm" />
+    <HelpKINode Title="methods" Url="html/e9e03b40-20cf-9980-d766-2e8597bf7280.htm" />
+    <HelpKINode Title="properties" Url="html/dfe41381-0607-4707-d080-a0718c678440.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PortScanner.AttemptTcpConnectionToPort method" Url="html/e5fca2ba-1a91-dbc8-5f18-850ad0685e34.htm" />
+  <HelpKINode Title="PortScanner.AttemptUdpConnectionToPort method" Url="html/964899b1-dca0-5d71-e07d-e15da6e40b9c.htm" />
+  <HelpKINode Title="PortScanner.EndPointName property" Url="html/ec019545-7b63-8b26-0351-8e8b9081d56c.htm" />
+  <HelpKINode Title="PortScanner.Port property" Url="html/e7940392-b107-3362-4df1-af35601048d4.htm" />
+  <HelpKINode Title="PortScanner.PortScanner constructor" Url="html/9c6d750b-3162-d9d5-1872-ce921fce5138.htm" />
+  <HelpKINode Title="PortScanner.PortScanResult event" Url="html/8c990c14-8e64-7bcb-80b8-eb85e666d99e.htm" />
+  <HelpKINode Title="PortScanResult event">
+    <HelpKINode Title="IPortScanManager.PortScanResult Event" Url="html/e6fe5380-0ab2-8e8a-be0e-88d08e374108.htm" />
+    <HelpKINode Title="PortScanManager.PortScanResult Event" Url="html/8789773a-27a6-5942-df39-78bd4c8615e6.htm" />
+    <HelpKINode Title="PortScanner.PortScanResult Event" Url="html/8c990c14-8e64-7bcb-80b8-eb85e666d99e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PortScanResultEventArgs class">
+    <HelpKINode Title="PortScanResultEventArgs Class" Url="html/666a04a5-be28-62b2-f9cb-c0766a1c603f.htm" />
+    <HelpKINode Title="constructor" Url="html/5c139465-ba1e-9ad6-0e8a-e464402345d7.htm" />
+    <HelpKINode Title="methods" Url="html/b9606a9a-6dce-8052-2b55-ca46b2db376a.htm" />
+    <HelpKINode Title="properties" Url="html/5df4cec8-cf7f-3f7a-271e-6149c30a642b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PortScanResultEventArgs.EndPoint property" Url="html/ce922d38-3081-6e0e-7c4b-ffe066dde78d.htm" />
+  <HelpKINode Title="PortScanResultEventArgs.Port property" Url="html/02a30dd5-ef0d-b47c-3c5d-dead81945fe1.htm" />
+  <HelpKINode Title="PortScanResultEventArgs.PortScanResultEventArgs constructor" Url="html/5c139465-ba1e-9ad6-0e8a-e464402345d7.htm" />
+  <HelpKINode Title="PortScanResultEventArgs.PortType property" Url="html/0f2ae7aa-d1c4-2668-17f6-8b7b475ba330.htm" />
+  <HelpKINode Title="PortScanResultEventArgs.ToString method" Url="html/d67174a4-089f-fa1c-2e4e-1fcc3804d7fe.htm" />
+  <HelpKINode Title="PortType property" Url="html/0f2ae7aa-d1c4-2668-17f6-8b7b475ba330.htm" />
+  <HelpKINode Title="PortTypes enumeration" Url="html/2bf44a91-ea87-494c-0fe3-d2258c975760.htm" />
+  <HelpKINode Title="RegistrySettings class">
+    <HelpKINode Title="RegistrySettings Class" Url="html/a077be24-df65-17dd-193f-d70827f89e04.htm" />
+    <HelpKINode Title="constructor" Url="html/69e8cbe2-1320-c1d6-9850-7a963a24334e.htm" />
+    <HelpKINode Title="methods" Url="html/36c8e7e2-f2e0-72ec-2f08-75614b798d2d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RegistrySettings.DeleteSetting method" Url="html/2f445367-142b-e12a-9d3a-579ec704ae12.htm" />
+  <HelpKINode Title="RegistrySettings.DeleteSettingLM method" Url="html/2fa96a01-6151-413e-4149-18a2f51f0835.htm" />
+  <HelpKINode Title="RegistrySettings.GetBooleanSetting method" Url="html/510af03c-c575-d56e-af53-42f74d6369a5.htm" />
+  <HelpKINode Title="RegistrySettings.GetBooleanSettingLM method" Url="html/25f74a32-8a64-2c9c-942b-e51291602a83.htm" />
+  <HelpKINode Title="RegistrySettings.GetInteger method" Url="html/cd7ebfd7-4fc0-04c6-ff8e-e53e1200287b.htm" />
+  <HelpKINode Title="RegistrySettings.GetIntegerLM method" Url="html/9a32cb39-4f48-c342-87bb-989ca687471b.htm" />
+  <HelpKINode Title="RegistrySettings.GetSetting method" Url="html/15e18207-121f-0cb9-5f13-018db2c094cd.htm" />
+  <HelpKINode Title="RegistrySettings.GetSettingLM method" Url="html/10f5afb4-d5f3-6577-418b-25d0b8c481e4.htm" />
+  <HelpKINode Title="RegistrySettings.RegistrySettings constructor" Url="html/69e8cbe2-1320-c1d6-9850-7a963a24334e.htm" />
+  <HelpKINode Title="RegistrySettings.SaveBooleanSetting method" Url="html/2f3c382a-c918-ee81-7be3-df081d31da19.htm" />
+  <HelpKINode Title="RegistrySettings.SaveBooleanSettingLM method" Url="html/7d436409-c867-5f0a-f830-ec499577e7be.htm" />
+  <HelpKINode Title="RegistrySettings.SaveInteger method" Url="html/caaa52dd-9e99-d02e-8fd2-dd93346deef6.htm" />
+  <HelpKINode Title="RegistrySettings.SaveIntegerLM method" Url="html/d4447056-836d-9e00-aab8-9ff9a3347fbe.htm" />
+  <HelpKINode Title="RegistrySettings.SaveSetting method" Url="html/4a85bcb3-7c03-bbdc-16ac-53662bf4a234.htm" />
+  <HelpKINode Title="RegistrySettings.SaveSettingLM method" Url="html/643fda09-35b0-4c78-af5d-799580605a6c.htm" />
+  <HelpKINode Title="Reply property" Url="html/5f3a3dfc-963b-ccd5-757d-8aa66af12891.htm" />
+  <HelpKINode Title="ResponseTime property" Url="html/8b8743f1-7e53-cc4e-3dfd-45c24b2d0154.htm" />
+  <HelpKINode Title="SaveBooleanSetting method" Url="html/2f3c382a-c918-ee81-7be3-df081d31da19.htm" />
+  <HelpKINode Title="SaveBooleanSettingLM method" Url="html/7d436409-c867-5f0a-f830-ec499577e7be.htm" />
+  <HelpKINode Title="SaveInteger method" Url="html/caaa52dd-9e99-d02e-8fd2-dd93346deef6.htm" />
+  <HelpKINode Title="SaveIntegerLM method" Url="html/d4447056-836d-9e00-aab8-9ff9a3347fbe.htm" />
+  <HelpKINode Title="SaveSetting method" Url="html/4a85bcb3-7c03-bbdc-16ac-53662bf4a234.htm" />
+  <HelpKINode Title="SaveSettingLM method" Url="html/643fda09-35b0-4c78-af5d-799580605a6c.htm" />
+  <HelpKINode Title="ScrambleKey method" Url="html/b0ad5f57-0a4d-94a5-3996-4312afa97e00.htm" />
+  <HelpKINode Title="ServiceControllerExtensions class">
+    <HelpKINode Title="ServiceControllerExtensions Class" Url="html/5e1abaa3-50e7-6189-88a3-668399ff1ada.htm" />
+    <HelpKINode Title="methods" Url="html/046a7257-76aa-def4-85cc-5770c999ea07.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ServiceControllerExtensions.WaitForStatusAsync method" Url="html/0121cbea-8e5c-57f2-d752-e189b4d6b588.htm" />
+  <HelpKINode Title="SHA1 method" Url="html/6d8c0f85-0b9d-2bd3-ceb7-4dc8c6affcdd.htm" />
+  <HelpKINode Title="SHA256 method" Url="html/8fe5f35d-ae5b-02fd-acab-d1d8ab9a2fcd.htm" />
+  <HelpKINode Title="SHA384 method" Url="html/9131367c-f5b4-d8a7-1222-9f6fde847a1a.htm" />
+  <HelpKINode Title="SHA512 method" Url="html/e9813dea-5a60-929b-c235-a3b06c534683.htm" />
+  <HelpKINode Title="Start method">
+    <HelpKINode Title="IPingManager.Start Method " Url="html/ff835f69-2d29-9c10-a6f3-2a724a62865e.htm" />
+    <HelpKINode Title="IPortScanManager.Start Method " Url="html/20803b50-4cfc-86be-ba5f-fe8d3d9ebd58.htm" />
+    <HelpKINode Title="PingManager.Start Method " Url="html/993e2c84-505b-d073-8e8a-59ecb6bfea65.htm" />
+    <HelpKINode Title="PortScanManager.Start Method " Url="html/042cf4fd-d54e-4336-9f25-b31f3998bd3f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Stop method">
+    <HelpKINode Title="IPingManager.Stop Method " Url="html/7e687794-d44e-fb9f-55ae-9a3251ae1ac3.htm" />
+    <HelpKINode Title="IPortScanManager.Stop Method " Url="html/0031c15d-0848-469e-14d4-4f017ec0bfff.htm" />
+    <HelpKINode Title="PingManager.Stop Method " Url="html/251504bc-e90a-d795-20fd-89e39dc456f6.htm" />
+    <HelpKINode Title="PortScanManager.Stop Method " Url="html/ae111a50-1b8a-7dbf-6189-dff009cf2083.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Stopped enumeration member" Url="html/a32a1617-6934-91ba-a073-65968991ab15.htm" />
+  <HelpKINode Title="Success property" Url="html/abc015cf-21ed-271b-713a-3122527718b4.htm" />
+  <HelpKINode Title="Tasks property">
+    <HelpKINode Title="IPortScanManager.Tasks Property " Url="html/416bf6a3-29d9-cc20-b761-b358c85955f6.htm" />
+    <HelpKINode Title="PortScanManager.Tasks Property " Url="html/4cc43e81-04bc-7b4c-a9a4-34566bcf18e1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tcp enumeration member" Url="html/2bf44a91-ea87-494c-0fe3-d2258c975760.htm" />
+  <HelpKINode Title="TimeBetweenPings property">
+    <HelpKINode Title="IPingManager.TimeBetweenPings Property " Url="html/30ffc036-00c5-0fbd-8164-6f042d4b8216.htm" />
+    <HelpKINode Title="PingManager.TimeBetweenPings Property " Url="html/8b5bde79-1435-2928-371d-85e14080f671.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ToString method">
+    <HelpKINode Title="PingResultEventArgs.ToString Method " Url="html/dfc7be3c-37fb-a904-1354-9a417b0ec238.htm" />
+    <HelpKINode Title="PortScanResultEventArgs.ToString Method " Url="html/d67174a4-089f-fa1c-2e4e-1fcc3804d7fe.htm" />
+    <HelpKINode Title="TraceRouteHopDetail.ToString Method " Url="html/dc09ac11-ecc4-a85f-a265-2fa47eda6551.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TraceRouteComplete event">
+    <HelpKINode Title="ITraceRouteManager.TraceRouteComplete Event" Url="html/a47b4456-2565-ac58-754e-fd81d08d6587.htm" />
+    <HelpKINode Title="TraceRouteManager.TraceRouteComplete Event" Url="html/e26d83eb-aa6a-4b47-d469-4c8fafbbe998.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TraceRouteCompleteEventArgs class">
+    <HelpKINode Title="TraceRouteCompleteEventArgs Class" Url="html/1039c920-1108-4e17-9e9d-e0d97954ea39.htm" />
+    <HelpKINode Title="constructor" Url="html/51637423-920b-3537-9a00-91807b4b52ca.htm" />
+    <HelpKINode Title="methods" Url="html/2428a3f4-ff55-c046-59ca-a6b7b28896db.htm" />
+    <HelpKINode Title="properties" Url="html/867a2604-3831-7ba1-405c-6a3f979a7126.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TraceRouteCompleteEventArgs.TraceRouteCompleteEventArgs constructor" Url="html/51637423-920b-3537-9a00-91807b4b52ca.htm" />
+  <HelpKINode Title="TraceRouteCompleteEventArgs.TraceRouteHops property" Url="html/9419b048-265a-f4c5-75be-af971e6d4d45.htm" />
+  <HelpKINode Title="TraceRouteExceptionException class">
+    <HelpKINode Title="TraceRouteExceptionException Class" Url="html/0cc1a799-9bc3-99c7-7eb0-5b00ed6f7f95.htm" />
+    <HelpKINode Title="constructor" Url="html/52b41c13-5695-a558-b2fd-53c440e8f18c.htm" />
+    <HelpKINode Title="events" Url="html/b0c4dc30-65e3-0101-75d9-56ddc27912c6.htm" />
+    <HelpKINode Title="methods" Url="html/38c5e09a-6032-a056-b0c8-e4a834550bd6.htm" />
+    <HelpKINode Title="properties" Url="html/d17630c4-4e94-7133-68be-2bf4db496b47.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TraceRouteExceptionException.TraceRouteExceptionException constructor" Url="html/52b41c13-5695-a558-b2fd-53c440e8f18c.htm" />
+  <HelpKINode Title="TraceRouteHopDetail class">
+    <HelpKINode Title="TraceRouteHopDetail Class" Url="html/a756600d-ee78-ec0a-2631-0afafc34282c.htm" />
+    <HelpKINode Title="constructor" Url="html/9574e754-2aca-217e-5732-8c882851e1c5.htm" />
+    <HelpKINode Title="methods" Url="html/2cf1f15a-9346-b522-e93c-e8cbf1efc8d6.htm" />
+    <HelpKINode Title="properties" Url="html/8abe8cbd-6aba-fb51-71bc-6b55acdc0d19.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TraceRouteHopDetail.FormattedTextHeader property" Url="html/59f4f4a2-a4d2-375c-02b8-b721053986b0.htm" />
+  <HelpKINode Title="TraceRouteHopDetail.HopNumber property" Url="html/5d25ddc7-32f5-1e73-4d76-16df78580dc6.htm" />
+  <HelpKINode Title="TraceRouteHopDetail.HostName property" Url="html/8ee34a74-d666-e95e-445e-dfeca9dbcabe.htm" />
+  <HelpKINode Title="TraceRouteHopDetail.IPAddress property" Url="html/a2bcf845-9297-4ca0-4db1-8e23b7db9a11.htm" />
+  <HelpKINode Title="TraceRouteHopDetail.ResponseTime property" Url="html/8b8743f1-7e53-cc4e-3dfd-45c24b2d0154.htm" />
+  <HelpKINode Title="TraceRouteHopDetail.ToString method" Url="html/dc09ac11-ecc4-a85f-a265-2fa47eda6551.htm" />
+  <HelpKINode Title="TraceRouteHopDetail.TraceRouteHopDetail constructor" Url="html/9574e754-2aca-217e-5732-8c882851e1c5.htm" />
+  <HelpKINode Title="TraceRouteHops property" Url="html/9419b048-265a-f4c5-75be-af971e6d4d45.htm" />
+  <HelpKINode Title="TraceRouteManager class">
+    <HelpKINode Title="TraceRouteManager Class" Url="html/b3763d4b-0c59-915c-253a-c7cba3f89028.htm" />
+    <HelpKINode Title="constructor" Url="html/8b3e506f-2b51-a748-37cd-e3db5de5b959.htm" />
+    <HelpKINode Title="events" Url="html/422d7e94-4850-1697-ab9a-5aa94a0b5e59.htm" />
+    <HelpKINode Title="methods" Url="html/4dd3c0b3-fe7b-bbe3-f437-75d4398c5521.htm" />
+    <HelpKINode Title="properties" Url="html/c4b8e26c-9664-ccde-d23d-85f1b6b01937.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TraceRouteManager.Cancel method" Url="html/91d2bd0f-55ca-f63d-1459-e29ec31b03bb.htm" />
+  <HelpKINode Title="TraceRouteManager.CurrentCancellationTokenSource property" Url="html/84a45199-4070-fe14-07f6-c6b834309056.htm" />
+  <HelpKINode Title="TraceRouteManager.ExecuteTraceRoute method" Url="html/580f851f-1d3a-a34f-e92a-ee0bdece3be1.htm" />
+  <HelpKINode Title="TraceRouteManager.GetResponseTime method" Url="html/285d7d66-1d1a-bf84-4648-438039a929ab.htm" />
+  <HelpKINode Title="TraceRouteManager.TraceRouteComplete event" Url="html/e26d83eb-aa6a-4b47-d469-4c8fafbbe998.htm" />
+  <HelpKINode Title="TraceRouteManager.TraceRouteManager constructor" Url="html/8b3e506f-2b51-a748-37cd-e3db5de5b959.htm" />
+  <HelpKINode Title="TraceRouteManager.TraceRouteNodeFound event" Url="html/a0884ae4-8852-e1ae-9322-040994f35fa7.htm" />
+  <HelpKINode Title="TraceRouteNodeFound event">
+    <HelpKINode Title="ITraceRouteManager.TraceRouteNodeFound Event" Url="html/ca5d0d86-86d9-7d09-6a68-2a099350f01e.htm" />
+    <HelpKINode Title="TraceRouteManager.TraceRouteNodeFound Event" Url="html/a0884ae4-8852-e1ae-9322-040994f35fa7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TraceRouteNodeFoundEventArgs class">
+    <HelpKINode Title="TraceRouteNodeFoundEventArgs Class" Url="html/265b0644-bc45-8033-344c-354d572af72b.htm" />
+    <HelpKINode Title="constructor" Url="html/b8f3f58d-f30b-c327-7fc7-ed3cfc1f577c.htm" />
+    <HelpKINode Title="methods" Url="html/f21fb99e-6108-9394-60d2-1b3467bf8c05.htm" />
+    <HelpKINode Title="properties" Url="html/da008754-e160-12fe-c439-6f5d262f8af6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TraceRouteNodeFoundEventArgs.Detail property" Url="html/38b31050-da26-18ba-b5f9-fc16b62942ef.htm" />
+  <HelpKINode Title="TraceRouteNodeFoundEventArgs.TraceRouteNodeFoundEventArgs constructor" Url="html/b8f3f58d-f30b-c327-7fc7-ed3cfc1f577c.htm" />
+  <HelpKINode Title="TripleDES class">
+    <HelpKINode Title="TripleDES Class" Url="html/eeef1981-a046-6f75-9562-2368edd5d72f.htm" />
+    <HelpKINode Title="constructor" Url="html/256ab002-fe69-dcb4-d103-1bd5aef52907.htm" />
+    <HelpKINode Title="methods" Url="html/a901ece5-6f77-b299-3506-9286da75125f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TripleDES.DecryptTripleDES method" Url="html/52a85647-955a-412a-1dc2-5585b581cbff.htm" />
+  <HelpKINode Title="TripleDES.EncryptTripleDES method" Url="html/57d244e6-1f82-5ddc-a6cb-56cf7904e466.htm" />
+  <HelpKINode Title="TripleDES.ScrambleKey method" Url="html/b0ad5f57-0a4d-94a5-3996-4312afa97e00.htm" />
+  <HelpKINode Title="TripleDES.TripleDES constructor" Url="html/256ab002-fe69-dcb4-d103-1bd5aef52907.htm" />
+  <HelpKINode Title="Udp enumeration member" Url="html/2bf44a91-ea87-494c-0fe3-d2258c975760.htm" />
+  <HelpKINode Title="Unknown enumeration member">
+    <HelpKINode Title="PingManagerStates Enumeration" Url="html/a32a1617-6934-91ba-a073-65968991ab15.htm" />
+    <HelpKINode Title="PortTypes Enumeration" Url="html/2bf44a91-ea87-494c-0fe3-d2258c975760.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserTimeout class">
+    <HelpKINode Title="UserTimeout Class" Url="html/c780b09b-ebec-c992-1ed8-f8c8b0f1accb.htm" />
+    <HelpKINode Title="constructor" Url="html/94e45f88-7df3-3d2a-d583-0adedda0fbf6.htm" />
+    <HelpKINode Title="methods" Url="html/6040eda7-5fda-9806-d722-6c2a0d58f027.htm" />
+  </HelpKINode>
+  <HelpKINode Title="UserTimeout.GetLastInputInfo method" Url="html/066647c5-c126-ef17-2266-de1266c61a6e.htm" />
+  <HelpKINode Title="UserTimeout.GetLastInputTime method" Url="html/b18d7262-274c-f875-1560-07acbc5c965c.htm" />
+  <HelpKINode Title="UserTimeout.LASTINPUTINFO structure" Url="html/6b73811c-07a8-b232-8400-00dd4edb7b29.htm" />
+  <HelpKINode Title="UserTimeout.LASTINPUTINFO.cbSize field" Url="html/d1066eb6-d32c-a2df-6955-204afcc14073.htm" />
+  <HelpKINode Title="UserTimeout.LASTINPUTINFO.dwTime field" Url="html/ab22a4af-1c2e-3144-03af-43f3ad843f93.htm" />
+  <HelpKINode Title="UserTimeout.UserTimeout constructor" Url="html/94e45f88-7df3-3d2a-d583-0adedda0fbf6.htm" />
+  <HelpKINode Title="WaitForStatusAsync method" Url="html/0121cbea-8e5c-57f2-d752-e189b4d6b588.htm" />
+  <HelpKINode Title="WhoisException class">
+    <HelpKINode Title="WhoisException Class" Url="html/5ffa32f9-259a-0529-4028-b5d9383c9293.htm" />
+    <HelpKINode Title="constructor" Url="html/79cf17ab-0c15-cacc-4ab9-b25bdba30923.htm" />
+    <HelpKINode Title="events" Url="html/cc3719e4-a4c7-0f7f-3d9d-ef7bc70713f7.htm" />
+    <HelpKINode Title="methods" Url="html/06263130-49b8-8a68-3eab-1200257bd29b.htm" />
+    <HelpKINode Title="properties" Url="html/0493a85a-ef65-dc8c-863b-f16775b5051f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WhoisException.WhoisException constructor" Url="html/79cf17ab-0c15-cacc-4ab9-b25bdba30923.htm" />
+  <HelpKINode Title="WhoisManager class">
+    <HelpKINode Title="WhoisManager Class" Url="html/f64de5b8-ca45-7b08-edc2-1fb32ab3af1f.htm" />
+    <HelpKINode Title="constructor" Url="html/75b3c7f2-c326-d838-5d29-5f9a5a88afa8.htm" />
+    <HelpKINode Title="methods" Url="html/098e8cae-77b9-2ec4-1488-be811a4ad6f6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WhoisManager.ExecuteWhoisForDomain method" Url="html/feb45e0e-443a-8c20-ef09-5e16e6c0889f.htm" />
+  <HelpKINode Title="WhoisManager.FindWhoisServerInOutput method" Url="html/61625801-1ee4-c292-d91a-af8d8c7e28f0.htm" />
+  <HelpKINode Title="WhoisManager.WhoisManager constructor" Url="html/75b3c7f2-c326-d838-5d29-5f9a5a88afa8.htm" />
+  <HelpKINode Title="Write method" Url="html/4308975c-4448-df9c-7fff-f6c2640b191b.htm" />
+  <HelpKINode Title="WriteConsole method" Url="html/14acc5a7-a17b-e604-c295-a63be39b9603.htm" />
+</HelpKI>

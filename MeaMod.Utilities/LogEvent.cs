@@ -116,9 +116,10 @@ namespace MeaMod.Utilities
             Write(source, message, logName, eventType, eventID, isConsole);
         }
 
-        /// <summary>Check if <paramref name="source"/> exists in <paramref name="logName"/></summary>
+        /// <summary>Check if <paramref name="source"/> exists in <paramref name="logName"/> and try to create it if does not exist</summary>
         /// <param name="source">The source by which the application is registered on the specified computer.</param>
         /// <param name="logName">The destination log name</param>
+        /// <returns>True or False if registry source exists</returns>
         public static bool CheckSourceExists(string source, string logName)
         {
             if (EventLog.SourceExists(source))

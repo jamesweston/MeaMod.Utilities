@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="823e7542-1658-4e4b-8ebb-37d587abb57c" Title="Namespaces" Url="html/1ec9cfd0-a26f-d571-f6d1-a52aac232f21.htm">
-    <HelpTOCNode Id="dd0b20a2-8bce-4c4e-85ca-450b9372ad2a" Title="MeaMod.Utilities" Url="html/825db034-995b-91cb-18b9-d7d7772bb750.htm">
-      <HelpTOCNode Id="a6dbf170-733a-4587-af88-f80e8f50bbea" Title="AuthenticodeTools Class" Url="html/84cafecc-2f65-f4e1-81b1-5ecb384c294b.htm">
-        <HelpTOCNode Id="3f153a49-4540-4752-bbd9-28a057e64066" Title="AuthenticodeTools Methods" Url="html/b9856ed7-63ab-451e-522f-c94e88c60dd6.htm">
+  <HelpTOCNode Id="cd646fb3-b064-4067-beb3-deef0e04440d" Title="Namespaces" Url="html/1ec9cfd0-a26f-d571-f6d1-a52aac232f21.htm">
+    <HelpTOCNode Id="e0ac8fba-baa2-44a6-a781-aa0ee5ba5970" Title="MeaMod.Utilities" Url="html/825db034-995b-91cb-18b9-d7d7772bb750.htm">
+      <HelpTOCNode Id="62b1d2a2-046c-4f64-a323-d9a50d3e4e77" Title="AuthenticodeTools Class" Url="html/84cafecc-2f65-f4e1-81b1-5ecb384c294b.htm">
+        <HelpTOCNode Id="35d321a3-5ce4-4b53-9e08-b58b77327b47" Title="AuthenticodeTools Methods" Url="html/b9856ed7-63ab-451e-522f-c94e88c60dd6.htm">
           <HelpTOCNode Title="IsTrusted Method " Url="html/35f63ed9-a2d5-1b36-21ef-60a8fe26a5df.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="e3b75ed9-b541-497e-8a2f-14ba8470cacb" Title="HardwareID Class" Url="html/b6c91e5b-df78-1aa7-c4c3-6017d6c98e07.htm">
+      <HelpTOCNode Id="894de0a7-4467-44b3-8349-42d0d4845716" Title="HardwareID Class" Url="html/b6c91e5b-df78-1aa7-c4c3-6017d6c98e07.htm">
         <HelpTOCNode Title="HardwareID Constructor " Url="html/c298f5ca-fa96-7e13-3cf8-6e76f71c21c8.htm" />
-        <HelpTOCNode Id="f9dde665-84b3-400b-851c-a29d71172eac" Title="HardwareID Methods" Url="html/4c1fca32-56cd-0f79-6fc0-878371d9adad.htm">
+        <HelpTOCNode Id="76eae70e-b2bb-4bf1-b83b-1d76f9dc21ad" Title="HardwareID Methods" Url="html/4c1fca32-56cd-0f79-6fc0-878371d9adad.htm">
           <HelpTOCNode Title="GetDiskVolumeSerialNumber Method " Url="html/f2dc78e2-8452-f7b7-dcdd-ae387a56a989.htm" />
           <HelpTOCNode Title="GetHardwareID Method " Url="html/121d672c-1011-2d95-ffd4-f277cac4c73c.htm" />
           <HelpTOCNode Title="GetMACAddress Method " Url="html/f6384d42-2c5d-c891-0801-c68fccb02746.htm" />
@@ -18,17 +18,17 @@
           <HelpTOCNode Title="GetProcessorId Method " Url="html/6fbfcdb7-ef83-6333-90ef-82897e48e9e2.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="50646068-9db4-44e4-89f7-08e84791a40d" Title="LogEvent Class" Url="html/58e5ec70-f096-8c7c-7e72-96433ce0e450.htm">
+      <HelpTOCNode Id="5dc6d8d4-1ed9-453b-8e81-c297b61dfa3d" Title="LogEvent Class" Url="html/58e5ec70-f096-8c7c-7e72-96433ce0e450.htm">
         <HelpTOCNode Title="LogEvent Constructor " Url="html/ead822fd-4eb4-9ed8-d6d9-d0587e99a869.htm" />
-        <HelpTOCNode Id="43e1e86c-1730-4a18-b959-481ca2624dbf" Title="LogEvent Methods" Url="html/71da9b80-9e02-63a7-f45f-814903fd3ba3.htm">
+        <HelpTOCNode Id="c118efbd-8a68-4e2a-b567-5f57e6b2e86d" Title="LogEvent Methods" Url="html/71da9b80-9e02-63a7-f45f-814903fd3ba3.htm">
           <HelpTOCNode Title="CheckSourceExists Method " Url="html/43a4488e-5e6b-74cf-c5bf-f5ceca7825ac.htm" />
-          <HelpTOCNode Id="502707f5-29f4-44fe-be13-1b5bf7a83651" Title="Write Method " Url="html/4308975c-4448-df9c-7fff-f6c2640b191b.htm">
+          <HelpTOCNode Id="a3ef1bed-316c-490a-bbf1-057d2a651d49" Title="Write Method " Url="html/4308975c-4448-df9c-7fff-f6c2640b191b.htm">
             <HelpTOCNode Title="Write Method (String, String, Boolean)" Url="html/a2b091b5-7b47-7919-6092-ca88723820c2.htm" />
             <HelpTOCNode Title="Write Method (String, String, String, Boolean)" Url="html/8acad32c-086f-c7b8-cfee-bb2243bbd110.htm" />
             <HelpTOCNode Title="Write Method (String, String, String, EventLogEntryType, Boolean)" Url="html/8334d138-9a73-85a3-d61b-b4b84bc7cd7f.htm" />
             <HelpTOCNode Title="Write Method (String, String, String, EventLogEntryType, Int32, Boolean)" Url="html/37e687b5-30bc-d8e1-5c5e-dafa14ed902f.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="e14f621e-df0a-42a0-836a-1db4be44f515" Title="WriteConsole Method " Url="html/14acc5a7-a17b-e604-c295-a63be39b9603.htm">
+          <HelpTOCNode Id="166c1215-2eab-47c7-b6fd-dbfd92de27e4" Title="WriteConsole Method " Url="html/14acc5a7-a17b-e604-c295-a63be39b9603.htm">
             <HelpTOCNode Title="WriteConsole Method (String, String, Boolean)" Url="html/4adf1cc8-bf9a-453f-8679-9a0cae3f814a.htm" />
             <HelpTOCNode Title="WriteConsole Method (String, String, String, Boolean)" Url="html/aea49fd8-fbf1-0069-3d88-8e10fd3861df.htm" />
             <HelpTOCNode Title="WriteConsole Method (String, String, String, EventLogEntryType, Boolean)" Url="html/9985600b-aa24-9b5b-17d3-a2cb0bb4b524.htm" />
@@ -36,16 +36,16 @@
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="3eb58765-cfee-4a75-9528-ff3ada5240d0" Title="OperatingSystem Class" Url="html/d04d19ae-a94f-c082-f103-e428d93e07fe.htm">
-        <HelpTOCNode Id="3bde11a5-cf80-49a7-86d9-af2ca5bcb3ac" Title="OperatingSystem Methods" Url="html/c260f257-950d-60ec-d8f1-98ff7271cfe6.htm">
+      <HelpTOCNode Id="5882d755-e9e0-4c63-8178-72dd040b461b" Title="OperatingSystem Class" Url="html/d04d19ae-a94f-c082-f103-e428d93e07fe.htm">
+        <HelpTOCNode Id="b0329c70-293f-48e1-a247-93f78438c492" Title="OperatingSystem Methods" Url="html/c260f257-950d-60ec-d8f1-98ff7271cfe6.htm">
           <HelpTOCNode Title="IsLinux Method " Url="html/956e445a-6744-5025-b037-c1a2a89d5116.htm" />
           <HelpTOCNode Title="IsMacOS Method " Url="html/c57b0c95-a918-23ef-9e4c-b58e2e50fe3f.htm" />
           <HelpTOCNode Title="IsWindows Method " Url="html/453fac2b-d622-77fc-58ea-d9d0aa78b8a6.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="8e47f311-ed8f-4d4b-a334-1b97e44310b6" Title="RegistrySettings Class" Url="html/a077be24-df65-17dd-193f-d70827f89e04.htm">
+      <HelpTOCNode Id="29f8b005-9935-47f0-b601-04920003af3b" Title="RegistrySettings Class" Url="html/a077be24-df65-17dd-193f-d70827f89e04.htm">
         <HelpTOCNode Title="RegistrySettings Constructor " Url="html/69e8cbe2-1320-c1d6-9850-7a963a24334e.htm" />
-        <HelpTOCNode Id="3b7ba8d9-a2b3-4140-9ac6-4771705e82b2" Title="RegistrySettings Methods" Url="html/36c8e7e2-f2e0-72ec-2f08-75614b798d2d.htm">
+        <HelpTOCNode Id="f447a913-1dd0-401c-a5af-f53441f5ecac" Title="RegistrySettings Methods" Url="html/36c8e7e2-f2e0-72ec-2f08-75614b798d2d.htm">
           <HelpTOCNode Title="DeleteSetting Method " Url="html/2f445367-142b-e12a-9d3a-579ec704ae12.htm" />
           <HelpTOCNode Title="DeleteSettingLM Method " Url="html/2fa96a01-6151-413e-4149-18a2f51f0835.htm" />
           <HelpTOCNode Title="GetBooleanSetting Method " Url="html/510af03c-c575-d56e-af53-42f74d6369a5.htm" />
@@ -62,33 +62,33 @@
           <HelpTOCNode Title="SaveSettingLM Method " Url="html/643fda09-35b0-4c78-af5d-799580605a6c.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="46203a73-5570-443f-91f4-efb0702dfa5f" Title="ServiceControllerExtensions Class" Url="html/5e1abaa3-50e7-6189-88a3-668399ff1ada.htm">
-        <HelpTOCNode Id="dff620de-83f0-4ca2-9487-b510a2aa2496" Title="ServiceControllerExtensions Methods" Url="html/046a7257-76aa-def4-85cc-5770c999ea07.htm">
-          <HelpTOCNode Id="2e5fb79b-2df0-4bb7-be84-9df4d2b3053c" Title="WaitForStatusAsync Method " Url="html/0121cbea-8e5c-57f2-d752-e189b4d6b588.htm">
+      <HelpTOCNode Id="24f516ba-2d44-4f25-8f5c-1970743ad653" Title="ServiceControllerExtensions Class" Url="html/5e1abaa3-50e7-6189-88a3-668399ff1ada.htm">
+        <HelpTOCNode Id="b0b25076-9e6b-4e76-9f57-4f2084888191" Title="ServiceControllerExtensions Methods" Url="html/046a7257-76aa-def4-85cc-5770c999ea07.htm">
+          <HelpTOCNode Id="aaf5ec7a-dcc7-4a51-bbae-fb4732110f84" Title="WaitForStatusAsync Method " Url="html/0121cbea-8e5c-57f2-d752-e189b4d6b588.htm">
             <HelpTOCNode Title="WaitForStatusAsync Method (ServiceController, ServiceControllerStatus, TimeSpan)" Url="html/da999cd9-ca54-0303-4f77-9aaa001aa674.htm" />
             <HelpTOCNode Title="WaitForStatusAsync Method (ServiceController, ServiceControllerStatus, TimeSpan, CancellationToken)" Url="html/d1cacc4b-aac4-29eb-cae7-6440d4c463d4.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="543297c8-9f68-4d20-9784-fc321ee91233" Title="UserTimeout Class" Url="html/c780b09b-ebec-c992-1ed8-f8c8b0f1accb.htm">
+      <HelpTOCNode Id="b6c9ffd0-3fe5-4af6-bec9-9aad680f51e4" Title="UserTimeout Class" Url="html/c780b09b-ebec-c992-1ed8-f8c8b0f1accb.htm">
         <HelpTOCNode Title="UserTimeout Constructor " Url="html/94e45f88-7df3-3d2a-d583-0adedda0fbf6.htm" />
-        <HelpTOCNode Id="41257fc2-41b9-4fa7-ad44-b594e70461c1" Title="UserTimeout Methods" Url="html/6040eda7-5fda-9806-d722-6c2a0d58f027.htm">
+        <HelpTOCNode Id="74acf9c6-2344-4e61-b81a-8a5529c684ff" Title="UserTimeout Methods" Url="html/6040eda7-5fda-9806-d722-6c2a0d58f027.htm">
           <HelpTOCNode Title="GetLastInputInfo Method " Url="html/066647c5-c126-ef17-2266-de1266c61a6e.htm" />
           <HelpTOCNode Title="GetLastInputTime Method " Url="html/b18d7262-274c-f875-1560-07acbc5c965c.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="472a55c7-289f-405b-a74b-2596234881e3" Title="UserTimeout.LASTINPUTINFO Structure" Url="html/6b73811c-07a8-b232-8400-00dd4edb7b29.htm">
+      <HelpTOCNode Id="30fb5869-9c74-4d03-ba70-8d24252634fc" Title="UserTimeout.LASTINPUTINFO Structure" Url="html/6b73811c-07a8-b232-8400-00dd4edb7b29.htm">
         <HelpTOCNode Title="LASTINPUTINFO Methods" Url="html/88130d87-5b62-43d8-fa22-e3885d33edb5.htm" />
-        <HelpTOCNode Id="926f8799-190f-4d1b-87a3-46c6de081699" Title="LASTINPUTINFO Fields" Url="html/5150a9d2-f1fc-6972-c2cf-1edbcf8fae81.htm">
+        <HelpTOCNode Id="20b75d64-e8f3-4fd4-a0e8-26fc565161e6" Title="LASTINPUTINFO Fields" Url="html/5150a9d2-f1fc-6972-c2cf-1edbcf8fae81.htm">
           <HelpTOCNode Title="cbSize Field" Url="html/d1066eb6-d32c-a2df-6955-204afcc14073.htm" />
           <HelpTOCNode Title="dwTime Field" Url="html/ab22a4af-1c2e-3144-03af-43f3ad843f93.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="d0efcf51-00ed-4af7-9ef8-8b3c6617cb84" Title="MeaMod.Utilities.Cryptography" Url="html/6685bb70-b6b2-fe23-f921-589901cf3317.htm">
-      <HelpTOCNode Id="8f3861b1-5b18-4458-995d-c8eb80b4f9ab" Title="Hash Class" Url="html/9e8a46ce-df8c-4c02-78bd-964318f268f2.htm">
+    <HelpTOCNode Id="fed0f1d6-205c-43fb-a2ae-ce27f16fb9b5" Title="MeaMod.Utilities.Cryptography" Url="html/6685bb70-b6b2-fe23-f921-589901cf3317.htm">
+      <HelpTOCNode Id="fef581af-1396-4ddf-8a2b-ce925e31a20e" Title="Hash Class" Url="html/9e8a46ce-df8c-4c02-78bd-964318f268f2.htm">
         <HelpTOCNode Title="Hash Constructor " Url="html/ec50f049-6147-8d35-f916-ec213431002f.htm" />
-        <HelpTOCNode Id="d255fe31-8b34-482a-add2-65e87e7bdfa4" Title="Hash Methods" Url="html/4a1edab8-4fe6-ce1d-6abf-90ce03208fb4.htm">
+        <HelpTOCNode Id="548b1621-4dd0-4440-aeca-52d0406e16c4" Title="Hash Methods" Url="html/4a1edab8-4fe6-ce1d-6abf-90ce03208fb4.htm">
           <HelpTOCNode Title="MD5 Method " Url="html/d5238c17-a5ec-2b10-1039-2229ca2b8ab9.htm" />
           <HelpTOCNode Title="SHA1 Method " Url="html/6d8c0f85-0b9d-2bd3-ceb7-4dc8c6affcdd.htm" />
           <HelpTOCNode Title="SHA256 Method " Url="html/8fe5f35d-ae5b-02fd-acab-d1d8ab9a2fcd.htm" />
@@ -96,20 +96,20 @@
           <HelpTOCNode Title="SHA512 Method " Url="html/e9813dea-5a60-929b-c235-a3b06c534683.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="653c9c75-28d6-4eca-bcf6-58eca36cd7e9" Title="TripleDES Class" Url="html/eeef1981-a046-6f75-9562-2368edd5d72f.htm">
+      <HelpTOCNode Id="00a3ad44-f34c-424f-b7fe-f717c3a2e242" Title="TripleDES Class" Url="html/eeef1981-a046-6f75-9562-2368edd5d72f.htm">
         <HelpTOCNode Title="TripleDES Constructor " Url="html/256ab002-fe69-dcb4-d103-1bd5aef52907.htm" />
-        <HelpTOCNode Id="3d4275ac-a163-46da-8c60-36b83c2f478b" Title="TripleDES Methods" Url="html/a901ece5-6f77-b299-3506-9286da75125f.htm">
+        <HelpTOCNode Id="a4df307e-985e-43b4-96f7-724e39bc95c7" Title="TripleDES Methods" Url="html/a901ece5-6f77-b299-3506-9286da75125f.htm">
           <HelpTOCNode Title="DecryptTripleDES Method " Url="html/52a85647-955a-412a-1dc2-5585b581cbff.htm" />
           <HelpTOCNode Title="EncryptTripleDES Method " Url="html/57d244e6-1f82-5ddc-a6cb-56cf7904e466.htm" />
           <HelpTOCNode Title="ScrambleKey Method " Url="html/b0ad5f57-0a4d-94a5-3996-4312afa97e00.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="4119c945-035f-4350-b408-426e5fcfa942" Title="MeaMod.Utilities.NetworkTools Namespaces" Url="html/d4dc1c67-a18f-0982-8bf6-135ae4565a91.htm">
-      <HelpTOCNode Id="953e2f77-3372-4d6d-980c-060e294f4218" Title="MeaMod.Utilities.NetworkTools" Url="html/f341df3d-7724-e1e3-0de1-76b336d8d1a8.htm">
+    <HelpTOCNode Id="e7d07b49-4545-4b56-9a4c-f245dfc77966" Title="MeaMod.Utilities.NetworkTools Namespaces" Url="html/d4dc1c67-a18f-0982-8bf6-135ae4565a91.htm">
+      <HelpTOCNode Id="1be5297a-e87f-4bff-b26a-5d784be87066" Title="MeaMod.Utilities.NetworkTools" Url="html/f341df3d-7724-e1e3-0de1-76b336d8d1a8.htm">
         <HelpTOCNode Title="INetworkManager Interface" Url="html/d465f36b-9a82-6f97-0b81-9137e9945a4d.htm" />
-        <HelpTOCNode Id="7645fec4-cde0-4162-b76f-c73266eda012" Title="NetworkToolsException Class" Url="html/8e724390-fada-6903-6aa9-ae05d97c0f29.htm">
-          <HelpTOCNode Id="08e1ce30-b1b0-40b6-895c-7db089acc63a" Title="NetworkToolsException Constructor " Url="html/2b273367-7b4b-a800-a37e-b2e88a438207.htm">
+        <HelpTOCNode Id="4021b6a7-65b2-4dd3-bb9c-e7001928b0ff" Title="NetworkToolsException Class" Url="html/8e724390-fada-6903-6aa9-ae05d97c0f29.htm">
+          <HelpTOCNode Id="6277e82a-78b0-465d-b233-753feae36bcd" Title="NetworkToolsException Constructor " Url="html/2b273367-7b4b-a800-a37e-b2e88a438207.htm">
             <HelpTOCNode Title="NetworkToolsException Constructor " Url="html/dc942b2f-61c8-10b5-9234-fd5d565955f7.htm" />
             <HelpTOCNode Title="NetworkToolsException Constructor (String)" Url="html/681e8d87-ce66-520c-0c34-47f29b58b738.htm" />
             <HelpTOCNode Title="NetworkToolsException Constructor (String, Exception)" Url="html/1cf42336-34fb-b9a2-0abf-0dc2e23c95ff.htm" />
@@ -119,16 +119,16 @@
           <HelpTOCNode Title="NetworkToolsException Events" Url="html/f5b85b7b-ef76-8611-6adc-c6eba129f2e4.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="a9f6e2f8-f2e8-4d0a-80bd-e8e9d110cae3" Title="MeaMod.Utilities.NetworkTools.Extensions" Url="html/ca398c60-772a-0258-87b7-7040a952714b.htm">
-        <HelpTOCNode Id="f0fbd3a3-d296-48f7-b731-74eafb6a929d" Title="IEnumerableExtensions Class" Url="html/5c5558f5-0df5-184c-b2c8-e318fc3aaca9.htm">
-          <HelpTOCNode Id="6f0ed2ca-e8d1-418c-b47e-88be00576dea" Title="IEnumerableExtensions Methods" Url="html/91d07582-e449-d0c3-dae5-7d8f410029a7.htm">
+      <HelpTOCNode Id="8eb8e1b9-1986-4165-97ed-96824140b7c3" Title="MeaMod.Utilities.NetworkTools.Extensions" Url="html/ca398c60-772a-0258-87b7-7040a952714b.htm">
+        <HelpTOCNode Id="ba112260-1247-4551-baba-d4436b007f49" Title="IEnumerableExtensions Class" Url="html/5c5558f5-0df5-184c-b2c8-e318fc3aaca9.htm">
+          <HelpTOCNode Id="595c3368-d676-4584-8291-25800a8e5003" Title="IEnumerableExtensions Methods" Url="html/91d07582-e449-d0c3-dae5-7d8f410029a7.htm">
             <HelpTOCNode Title="Each(TItem) Method " Url="html/1ac4d949-6224-5cc5-8aae-dd117408c3a0.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="9fb5cba3-26a4-49c2-ac00-261018a56a49" Title="MeaMod.Utilities.NetworkTools.IcmpPing" Url="html/f2ffb372-8892-77be-8185-48e924963acb.htm">
-        <HelpTOCNode Id="57020854-4533-4889-8554-78436084dc62" Title="IcmpPingException Class" Url="html/85503d0d-9f00-e389-9836-92dddcc6e43b.htm">
-          <HelpTOCNode Id="1a2c9e16-eaa4-4d21-89ae-a5e1fa7c3492" Title="IcmpPingException Constructor " Url="html/e75f1b74-c082-09a3-39cd-d4ddf236e486.htm">
+      <HelpTOCNode Id="fc49b8ec-e86f-4b70-8f61-6c9d4c35c1b6" Title="MeaMod.Utilities.NetworkTools.IcmpPing" Url="html/f2ffb372-8892-77be-8185-48e924963acb.htm">
+        <HelpTOCNode Id="6313258d-981f-43dd-9c95-d22142c3e44f" Title="IcmpPingException Class" Url="html/85503d0d-9f00-e389-9836-92dddcc6e43b.htm">
+          <HelpTOCNode Id="3379c6d3-9773-41e1-8190-c3ed6b7983fa" Title="IcmpPingException Constructor " Url="html/e75f1b74-c082-09a3-39cd-d4ddf236e486.htm">
             <HelpTOCNode Title="IcmpPingException Constructor " Url="html/7c67896c-2544-2079-b94b-1760ecafcea3.htm" />
             <HelpTOCNode Title="IcmpPingException Constructor (String)" Url="html/ebe3bd0e-ff0f-63c0-7ff7-27cc4e04b718.htm" />
             <HelpTOCNode Title="IcmpPingException Constructor (String, Exception)" Url="html/7a94c7cd-21f3-ac77-9b0c-27d120a17ef9.htm" />
@@ -137,78 +137,78 @@
           <HelpTOCNode Title="IcmpPingException Methods" Url="html/fef29d08-c0ea-3839-f25a-abf636ea150f.htm" />
           <HelpTOCNode Title="IcmpPingException Events" Url="html/ee99d3f9-ccbd-f8a6-3ee2-0d58b8aa7d6d.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="65a69ab9-c9d6-4e51-b13d-13ef3a36c4ef" Title="IPingManager Interface" Url="html/32974d73-766e-f510-90a1-1d24e29f2073.htm">
-          <HelpTOCNode Id="bac9ec29-6bcb-4580-99d0-1d5384fdf692" Title="IPingManager Properties" Url="html/4d0e0139-a172-595b-26a3-6f60c9be7c57.htm">
+        <HelpTOCNode Id="9d2f865b-a437-4c22-b341-d07997aa4b48" Title="IPingManager Interface" Url="html/32974d73-766e-f510-90a1-1d24e29f2073.htm">
+          <HelpTOCNode Id="6106b885-d7bb-429b-bd2d-493d46b020de" Title="IPingManager Properties" Url="html/4d0e0139-a172-595b-26a3-6f60c9be7c57.htm">
             <HelpTOCNode Title="HostName Property " Url="html/72b8f72f-0596-eae3-4093-8a3c1f67c656.htm" />
             <HelpTOCNode Title="TimeBetweenPings Property " Url="html/30ffc036-00c5-0fbd-8164-6f042d4b8216.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="af0a80a9-a19c-4273-b950-7f92ac75995b" Title="IPingManager Methods" Url="html/ae14e5ce-3606-34c4-e3f7-f97ced6a2400.htm">
+          <HelpTOCNode Id="f72d7eb6-7b69-4ec2-8f20-262dfec162e7" Title="IPingManager Methods" Url="html/ae14e5ce-3606-34c4-e3f7-f97ced6a2400.htm">
             <HelpTOCNode Title="Start Method " Url="html/ff835f69-2d29-9c10-a6f3-2a724a62865e.htm" />
             <HelpTOCNode Title="Stop Method " Url="html/7e687794-d44e-fb9f-55ae-9a3251ae1ac3.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="a61ced68-274c-4587-9836-671d95a8ad59" Title="IPingManager Events" Url="html/eaba8fef-c162-26f3-4c5d-a3b2991457a2.htm">
+          <HelpTOCNode Id="a05ff495-0f4a-411d-be25-31f1575aff5b" Title="IPingManager Events" Url="html/eaba8fef-c162-26f3-4c5d-a3b2991457a2.htm">
             <HelpTOCNode Title="PingManagerStateChanged Event" Url="html/ca5faea3-8627-da4c-fc16-2b4c7935a999.htm" />
             <HelpTOCNode Title="PingResult Event" Url="html/baaf0b15-1225-d640-0368-01580275d718.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="f1a3463b-0f14-43e4-ace2-d932af30d48d" Title="PingManager Class" Url="html/5a6733f9-f3d7-68f6-7780-b29babf2482d.htm">
+        <HelpTOCNode Id="e6d6df35-bbb3-4ad3-bb5e-66d8797ea24b" Title="PingManager Class" Url="html/5a6733f9-f3d7-68f6-7780-b29babf2482d.htm">
           <HelpTOCNode Title="PingManager Constructor " Url="html/01605838-1721-aeac-dc0a-6df93a53167d.htm" />
-          <HelpTOCNode Id="448a6b89-aa61-46ad-b22e-7fd54f82cf5b" Title="PingManager Properties" Url="html/4904616b-0f2f-d8e0-e22c-e8ff724d1db0.htm">
+          <HelpTOCNode Id="1733c09e-fc3a-4798-a547-c4ebe83e293b" Title="PingManager Properties" Url="html/4904616b-0f2f-d8e0-e22c-e8ff724d1db0.htm">
             <HelpTOCNode Title="HostName Property " Url="html/a8c97582-5d7a-83c2-74cc-285ac434aa13.htm" />
             <HelpTOCNode Title="TimeBetweenPings Property " Url="html/8b5bde79-1435-2928-371d-85e14080f671.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="a70d79c3-43da-456b-b925-d711dd0d3e1f" Title="PingManager Methods" Url="html/75350c3e-56a5-b407-b85d-95f3de22a7aa.htm">
+          <HelpTOCNode Id="5ee02f8e-8276-4627-ae30-83af1042130c" Title="PingManager Methods" Url="html/75350c3e-56a5-b407-b85d-95f3de22a7aa.htm">
             <HelpTOCNode Title="ExecutePing Method " Url="html/7028382f-26e9-29d8-27ed-63d531833b50.htm" />
             <HelpTOCNode Title="OnPingResult Method " Url="html/9943674d-564d-a28f-06ad-338a36a468fa.htm" />
             <HelpTOCNode Title="OnStateChangedEvent Method " Url="html/41f353ab-59ef-199f-2168-5c94333d65c3.htm" />
             <HelpTOCNode Title="Start Method " Url="html/993e2c84-505b-d073-8e8a-59ecb6bfea65.htm" />
             <HelpTOCNode Title="Stop Method " Url="html/251504bc-e90a-d795-20fd-89e39dc456f6.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="68cfc757-37c7-4bf2-93a9-1ffeb2c2855f" Title="PingManager Events" Url="html/eda21f17-d19c-ed02-11f7-38cbe04867c7.htm">
+          <HelpTOCNode Id="110848c5-53e9-4cfe-8c10-eba5528a499b" Title="PingManager Events" Url="html/eda21f17-d19c-ed02-11f7-38cbe04867c7.htm">
             <HelpTOCNode Title="PingManagerStateChanged Event" Url="html/cb752201-1e33-a1c7-2ff9-661fad7331e4.htm" />
             <HelpTOCNode Title="PingResult Event" Url="html/90f1c588-ec6e-b95c-6a18-36dd1f86806c.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="b0cf176b-4e81-40c0-9317-aebe0bd4d7cf" Title="PingManagerStateChangedEventArgs Class" Url="html/b840a70a-4a3a-2d92-4b42-493b5ce45e71.htm">
+        <HelpTOCNode Id="7efbc311-839c-46bb-8b15-88badfcb9bbd" Title="PingManagerStateChangedEventArgs Class" Url="html/b840a70a-4a3a-2d92-4b42-493b5ce45e71.htm">
           <HelpTOCNode Title="PingManagerStateChangedEventArgs Constructor " Url="html/74e31fcd-fd72-1f68-327a-6d6699bc4592.htm" />
-          <HelpTOCNode Id="57248dea-2c5d-4d71-9f64-571d46846f7a" Title="PingManagerStateChangedEventArgs Properties" Url="html/cf7da7ae-86f9-2e68-68f1-97d4c94e3b09.htm">
+          <HelpTOCNode Id="2ec92893-c774-48a0-b91b-71e84bb1240a" Title="PingManagerStateChangedEventArgs Properties" Url="html/cf7da7ae-86f9-2e68-68f1-97d4c94e3b09.htm">
             <HelpTOCNode Title="NewState Property " Url="html/c23bbbd9-9ab0-2a98-1379-06cc60899fdf.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="PingManagerStateChangedEventArgs Methods" Url="html/2be04ab5-f8a0-e902-fb59-94231bba44b5.htm" />
         </HelpTOCNode>
         <HelpTOCNode Title="PingManagerStates Enumeration" Url="html/a32a1617-6934-91ba-a073-65968991ab15.htm" />
-        <HelpTOCNode Id="46fcc42f-2873-4c04-967c-2848a67e7221" Title="PingResultEventArgs Class" Url="html/53574ca5-a754-548c-3a9c-34c5a7d37deb.htm">
+        <HelpTOCNode Id="9f8119cb-ed8b-48ba-ac0c-1307a5809238" Title="PingResultEventArgs Class" Url="html/53574ca5-a754-548c-3a9c-34c5a7d37deb.htm">
           <HelpTOCNode Title="PingResultEventArgs Constructor " Url="html/814adde5-f70f-491e-d0a0-cdfeafa7f307.htm" />
-          <HelpTOCNode Id="dad4dd8d-83e9-4c77-b82c-0807a29ee146" Title="PingResultEventArgs Properties" Url="html/cc17ef18-45cc-ce5e-d416-3c1e576d9a6a.htm">
+          <HelpTOCNode Id="db174a47-3014-483e-82dc-f9cf1b0baa5d" Title="PingResultEventArgs Properties" Url="html/cc17ef18-45cc-ce5e-d416-3c1e576d9a6a.htm">
             <HelpTOCNode Title="LastException Property " Url="html/bf331ea3-5471-561d-b89a-50fd82ba4dde.htm" />
             <HelpTOCNode Title="Reply Property " Url="html/5f3a3dfc-963b-ccd5-757d-8aa66af12891.htm" />
             <HelpTOCNode Title="Success Property " Url="html/abc015cf-21ed-271b-713a-3122527718b4.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="5b332490-14c9-40c5-a5ce-7f22b44e171e" Title="PingResultEventArgs Methods" Url="html/056fb1eb-977c-a29c-4e57-fa4ae38c81ef.htm">
+          <HelpTOCNode Id="bd184a1d-a8fa-4ada-a584-93118901d7bb" Title="PingResultEventArgs Methods" Url="html/056fb1eb-977c-a29c-4e57-fa4ae38c81ef.htm">
             <HelpTOCNode Title="ToString Method " Url="html/dfc7be3c-37fb-a904-1354-9a417b0ec238.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="07339357-4609-40ee-89f4-447fa21ebdb9" Title="MeaMod.Utilities.NetworkTools.PortScan" Url="html/2d106228-2ee8-a336-bb78-e17a909f2699.htm">
-        <HelpTOCNode Id="a70543c1-348d-4e4d-97e6-f0b24f1d650e" Title="IPortScanManager Interface" Url="html/9354a669-d157-b630-307a-efbe5944514a.htm">
-          <HelpTOCNode Id="6e2724fa-bb67-4b19-a9a5-6e118fce5b7a" Title="IPortScanManager Properties" Url="html/7fc24ea9-913c-5072-3ab9-81f709d966e5.htm">
+      <HelpTOCNode Id="17f9fe7f-92ef-4f9a-b946-b2e6155dfc04" Title="MeaMod.Utilities.NetworkTools.PortScan" Url="html/2d106228-2ee8-a336-bb78-e17a909f2699.htm">
+        <HelpTOCNode Id="cc5e67b8-ef02-41ed-a6d0-888301c6513c" Title="IPortScanManager Interface" Url="html/9354a669-d157-b630-307a-efbe5944514a.htm">
+          <HelpTOCNode Id="946c41ea-ea5f-4cdc-a662-8b4db74243f6" Title="IPortScanManager Properties" Url="html/7fc24ea9-913c-5072-3ab9-81f709d966e5.htm">
             <HelpTOCNode Title="CurrentCancellationTokenSource Property " Url="html/36511054-a540-3bcd-a973-c19564b40ee5.htm" />
             <HelpTOCNode Title="EndPoint Property " Url="html/6c1cc7c0-41cc-e3af-c011-8e424ee4c44c.htm" />
             <HelpTOCNode Title="Tasks Property " Url="html/416bf6a3-29d9-cc20-b761-b358c85955f6.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="6a3477c9-7f1d-4762-a613-86acc1a3bc8e" Title="IPortScanManager Methods" Url="html/b8037fec-86f2-0cbc-618e-3e484b53a1ea.htm">
-            <HelpTOCNode Id="f8130449-859b-4aae-95ab-abae0ee47eae" Title="Start Method " Url="html/20803b50-4cfc-86be-ba5f-fe8d3d9ebd58.htm">
+          <HelpTOCNode Id="b9ac56ed-849d-4ded-9a34-8a791b1dcb2b" Title="IPortScanManager Methods" Url="html/b8037fec-86f2-0cbc-618e-3e484b53a1ea.htm">
+            <HelpTOCNode Id="795bf400-2c0a-40d9-9e41-2f2c28fb7710" Title="Start Method " Url="html/20803b50-4cfc-86be-ba5f-fe8d3d9ebd58.htm">
               <HelpTOCNode Title="Start Method " Url="html/22b4574f-fdb4-9c00-8aab-0d81054a240b.htm" />
               <HelpTOCNode Title="Start Method (Int32, Int32, PortTypes)" Url="html/4aa4c3ae-fbcb-b754-3b93-1695ec8d3c55.htm" />
             </HelpTOCNode>
             <HelpTOCNode Title="Stop Method " Url="html/0031c15d-0848-469e-14d4-4f017ec0bfff.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="dd2afec0-b210-412a-8c2a-e6ef7a58f4b3" Title="IPortScanManager Events" Url="html/a836bff2-175c-7596-3536-3397021670c6.htm">
+          <HelpTOCNode Id="5318534b-f695-4d04-be6c-732d1ccb280f" Title="IPortScanManager Events" Url="html/a836bff2-175c-7596-3536-3397021670c6.htm">
             <HelpTOCNode Title="PortScanResult Event" Url="html/e6fe5380-0ab2-8e8a-be0e-88d08e374108.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="49b8822d-d4c6-417b-b598-6d16cdb68199" Title="PortScanException Class" Url="html/d8b481f1-9d67-d5a3-d548-1c338552b215.htm">
-          <HelpTOCNode Id="bb05aea7-5f76-432c-a4d5-213f6da6030f" Title="PortScanException Constructor " Url="html/c84729b6-4c74-227c-83ba-dda9a7771860.htm">
+        <HelpTOCNode Id="a46ef8e3-e7c3-44aa-9f9a-64619a6047f2" Title="PortScanException Class" Url="html/d8b481f1-9d67-d5a3-d548-1c338552b215.htm">
+          <HelpTOCNode Id="a27397e7-c57e-41f5-8ddb-f37b3495ccaa" Title="PortScanException Constructor " Url="html/c84729b6-4c74-227c-83ba-dda9a7771860.htm">
             <HelpTOCNode Title="PortScanException Constructor " Url="html/dfa4c3a9-8ee7-2da0-db58-0fd0e9a4655d.htm" />
             <HelpTOCNode Title="PortScanException Constructor (String)" Url="html/bb2a47dd-135e-06b5-0c6d-24f429fe7a05.htm" />
             <HelpTOCNode Title="PortScanException Constructor (String, Exception)" Url="html/7905a3f9-9965-b20f-0198-2fc273bd7209.htm" />
@@ -217,81 +217,81 @@
           <HelpTOCNode Title="PortScanException Methods" Url="html/cafa951b-83b5-e84e-0971-493cf0592aa2.htm" />
           <HelpTOCNode Title="PortScanException Events" Url="html/7bfd40e1-f761-da5c-aac5-82feb80c5cff.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="b561b44c-9e50-4691-837a-33235f34c27f" Title="PortScanManager Class" Url="html/694bded1-682c-4ca3-66b7-99460e92b48f.htm">
+        <HelpTOCNode Id="cf94d479-f694-4cd7-a8c3-78ba207f3131" Title="PortScanManager Class" Url="html/694bded1-682c-4ca3-66b7-99460e92b48f.htm">
           <HelpTOCNode Title="PortScanManager Constructor " Url="html/ada01fad-8535-3265-8e2a-30cd3de61919.htm" />
-          <HelpTOCNode Id="f81ba901-ded0-4b08-9848-aa229e04314e" Title="PortScanManager Properties" Url="html/4454cbcd-8c15-d2a8-570b-4c371826f450.htm">
+          <HelpTOCNode Id="33e1a85e-9851-4739-a3fc-d1666a4425d2" Title="PortScanManager Properties" Url="html/4454cbcd-8c15-d2a8-570b-4c371826f450.htm">
             <HelpTOCNode Title="CurrentCancellationTokenSource Property " Url="html/b23dbd6f-3c9a-5c70-836a-b28f99d114ec.htm" />
             <HelpTOCNode Title="EndPoint Property " Url="html/2f555e93-3828-b55a-83ab-ec1901927479.htm" />
             <HelpTOCNode Title="Tasks Property " Url="html/4cc43e81-04bc-7b4c-a9a4-34566bcf18e1.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="47cd4de3-61aa-40d8-bccf-a59be8dc8f9a" Title="PortScanManager Methods" Url="html/116e8bf5-aeeb-4943-5f88-acb1a16fcd15.htm">
-            <HelpTOCNode Id="63da4e3a-db8d-491d-8623-b3bb463ce512" Title="Start Method " Url="html/042cf4fd-d54e-4336-9f25-b31f3998bd3f.htm">
+          <HelpTOCNode Id="3163c121-3c88-4678-9639-9e9226e50288" Title="PortScanManager Methods" Url="html/116e8bf5-aeeb-4943-5f88-acb1a16fcd15.htm">
+            <HelpTOCNode Id="4f161b75-9295-409f-90c9-04389610fc83" Title="Start Method " Url="html/042cf4fd-d54e-4336-9f25-b31f3998bd3f.htm">
               <HelpTOCNode Title="Start Method " Url="html/10748a50-6039-b422-329c-b8e599944699.htm" />
               <HelpTOCNode Title="Start Method (Int32, Int32, PortTypes)" Url="html/14db48f8-177f-f99c-496e-2ff08aef5faa.htm" />
             </HelpTOCNode>
             <HelpTOCNode Title="Stop Method " Url="html/ae111a50-1b8a-7dbf-6189-dff009cf2083.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="ee899260-26c7-4fc7-a1f8-8305a95c8e01" Title="PortScanManager Events" Url="html/11837d14-4a12-559d-45f5-a1220d44d3c0.htm">
+          <HelpTOCNode Id="5b868c14-1b7f-4878-9cc2-2c940ffa0cab" Title="PortScanManager Events" Url="html/11837d14-4a12-559d-45f5-a1220d44d3c0.htm">
             <HelpTOCNode Title="PortScanResult Event" Url="html/8789773a-27a6-5942-df39-78bd4c8615e6.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="deebba6f-0b6f-4baa-8da6-d76e819ae10b" Title="PortScanner Class" Url="html/f5539aa7-6679-f4cf-fa07-e5816eb77b20.htm">
+        <HelpTOCNode Id="9ec16f96-6967-45cd-bc70-e16c251876d2" Title="PortScanner Class" Url="html/f5539aa7-6679-f4cf-fa07-e5816eb77b20.htm">
           <HelpTOCNode Title="PortScanner Constructor " Url="html/9c6d750b-3162-d9d5-1872-ce921fce5138.htm" />
-          <HelpTOCNode Id="dd6080a9-91d8-41f9-a772-295725be6e4d" Title="PortScanner Properties" Url="html/dfe41381-0607-4707-d080-a0718c678440.htm">
+          <HelpTOCNode Id="735eb564-226e-4070-80b3-0d637937887f" Title="PortScanner Properties" Url="html/dfe41381-0607-4707-d080-a0718c678440.htm">
             <HelpTOCNode Title="EndPointName Property " Url="html/ec019545-7b63-8b26-0351-8e8b9081d56c.htm" />
             <HelpTOCNode Title="Port Property " Url="html/e7940392-b107-3362-4df1-af35601048d4.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="36c61120-0661-4d92-bb66-176d3f5c5748" Title="PortScanner Methods" Url="html/e9e03b40-20cf-9980-d766-2e8597bf7280.htm">
+          <HelpTOCNode Id="1f1e4ad8-5936-4b94-99de-2e9e1fda0443" Title="PortScanner Methods" Url="html/e9e03b40-20cf-9980-d766-2e8597bf7280.htm">
             <HelpTOCNode Title="AttemptTcpConnectionToPort Method " Url="html/e5fca2ba-1a91-dbc8-5f18-850ad0685e34.htm" />
             <HelpTOCNode Title="AttemptUdpConnectionToPort Method " Url="html/964899b1-dca0-5d71-e07d-e15da6e40b9c.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="6e86e974-db53-4ab6-8381-dee6ac60ec96" Title="PortScanner Events" Url="html/3cead197-a8df-58af-10db-19941211b5f4.htm">
+          <HelpTOCNode Id="8df8ce01-41f8-46d3-a5f8-7294d1535754" Title="PortScanner Events" Url="html/3cead197-a8df-58af-10db-19941211b5f4.htm">
             <HelpTOCNode Title="PortScanResult Event" Url="html/8c990c14-8e64-7bcb-80b8-eb85e666d99e.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="7884ff2b-30be-491c-9d01-268c58d32a0c" Title="PortScanResultEventArgs Class" Url="html/666a04a5-be28-62b2-f9cb-c0766a1c603f.htm">
-          <HelpTOCNode Id="ffaba165-1a5f-4285-9f21-a1e862a878bf" Title="PortScanResultEventArgs Constructor " Url="html/5c139465-ba1e-9ad6-0e8a-e464402345d7.htm">
+        <HelpTOCNode Id="495a6d9a-bea3-46b6-a48a-dfc4bd773917" Title="PortScanResultEventArgs Class" Url="html/666a04a5-be28-62b2-f9cb-c0766a1c603f.htm">
+          <HelpTOCNode Id="7f941444-40eb-4423-aa18-dad5c503cd5c" Title="PortScanResultEventArgs Constructor " Url="html/5c139465-ba1e-9ad6-0e8a-e464402345d7.htm">
             <HelpTOCNode Title="PortScanResultEventArgs Constructor " Url="html/28ad3a66-1fd5-aa49-f716-0ad597af4860.htm" />
             <HelpTOCNode Title="PortScanResultEventArgs Constructor (String, Int32, PortTypes)" Url="html/4189a662-39a4-98c4-cf49-aceda3a48273.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="3c41af3c-e212-4a49-81eb-be7fdec3cfd1" Title="PortScanResultEventArgs Properties" Url="html/5df4cec8-cf7f-3f7a-271e-6149c30a642b.htm">
+          <HelpTOCNode Id="5d0802fb-5174-4c53-a665-b0c94cbac2f1" Title="PortScanResultEventArgs Properties" Url="html/5df4cec8-cf7f-3f7a-271e-6149c30a642b.htm">
             <HelpTOCNode Title="EndPoint Property " Url="html/ce922d38-3081-6e0e-7c4b-ffe066dde78d.htm" />
             <HelpTOCNode Title="Port Property " Url="html/02a30dd5-ef0d-b47c-3c5d-dead81945fe1.htm" />
             <HelpTOCNode Title="PortType Property " Url="html/0f2ae7aa-d1c4-2668-17f6-8b7b475ba330.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="a1f03cc3-4827-4ddd-a36e-4a18fad33e6b" Title="PortScanResultEventArgs Methods" Url="html/b9606a9a-6dce-8052-2b55-ca46b2db376a.htm">
+          <HelpTOCNode Id="e52c5b20-a571-40f5-9848-accfa37e7dde" Title="PortScanResultEventArgs Methods" Url="html/b9606a9a-6dce-8052-2b55-ca46b2db376a.htm">
             <HelpTOCNode Title="ToString Method " Url="html/d67174a4-089f-fa1c-2e4e-1fcc3804d7fe.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
         <HelpTOCNode Title="PortTypes Enumeration" Url="html/2bf44a91-ea87-494c-0fe3-d2258c975760.htm" />
       </HelpTOCNode>
-      <HelpTOCNode Id="774bf408-90a7-4cbd-b2d9-a5b66cae8e85" Title="MeaMod.Utilities.NetworkTools.TraceRoute" Url="html/5254d3b4-00ea-6a01-593f-d670912c3ded.htm">
-        <HelpTOCNode Id="b3eecc10-3be9-4fa5-89de-569628d0a627" Title="ITraceRouteManager Interface" Url="html/ef85771c-12b1-ddc7-5edf-ba478b386820.htm">
-          <HelpTOCNode Id="610ccbae-cd9a-46ab-8c10-0490c771da3b" Title="ITraceRouteManager Properties" Url="html/5d0b9602-ad2e-87d8-83e2-66ae0669c79f.htm">
+      <HelpTOCNode Id="5a177a7b-48a0-43ac-b09a-3f41ebb09083" Title="MeaMod.Utilities.NetworkTools.TraceRoute" Url="html/5254d3b4-00ea-6a01-593f-d670912c3ded.htm">
+        <HelpTOCNode Id="9aba9399-dca7-4c33-a151-a810f8962a8d" Title="ITraceRouteManager Interface" Url="html/ef85771c-12b1-ddc7-5edf-ba478b386820.htm">
+          <HelpTOCNode Id="a5077fdc-ecbd-4b7f-941d-164f4506d2e7" Title="ITraceRouteManager Properties" Url="html/5d0b9602-ad2e-87d8-83e2-66ae0669c79f.htm">
             <HelpTOCNode Title="CurrentCancellationTokenSource Property " Url="html/bd2f81d6-eedf-61a3-b17d-4e5b8d609687.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="07ab8873-305d-4d80-b3b2-7f47090c8e6b" Title="ITraceRouteManager Methods" Url="html/15c636f5-d621-6827-a508-b959fe598296.htm">
+          <HelpTOCNode Id="8e83c790-8cbe-434e-a689-a68393103563" Title="ITraceRouteManager Methods" Url="html/15c636f5-d621-6827-a508-b959fe598296.htm">
             <HelpTOCNode Title="Cancel Method " Url="html/f6489496-91e1-5696-35cf-00a9e6ab4890.htm" />
             <HelpTOCNode Title="ExecuteTraceRoute Method " Url="html/53ef30a4-2a41-6581-731c-66e1dcabba3a.htm" />
             <HelpTOCNode Title="GetResponseTime Method " Url="html/7f2eed5b-87bc-a538-4c02-79a7e89ca273.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="56381c1a-ab45-417f-9c90-8c9d3d8f6474" Title="ITraceRouteManager Events" Url="html/4633423b-8eea-023e-6580-e1064895f5d3.htm">
+          <HelpTOCNode Id="50d2c648-0615-4e99-b1f4-60dec60e12b0" Title="ITraceRouteManager Events" Url="html/4633423b-8eea-023e-6580-e1064895f5d3.htm">
             <HelpTOCNode Title="TraceRouteComplete Event" Url="html/a47b4456-2565-ac58-754e-fd81d08d6587.htm" />
             <HelpTOCNode Title="TraceRouteNodeFound Event" Url="html/ca5d0d86-86d9-7d09-6a68-2a099350f01e.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="20ec6650-846a-4887-837c-6403cff684ef" Title="TraceRouteCompleteEventArgs Class" Url="html/1039c920-1108-4e17-9e9d-e0d97954ea39.htm">
-          <HelpTOCNode Id="138641ae-1ab6-4685-8042-23182e78c551" Title="TraceRouteCompleteEventArgs Constructor " Url="html/51637423-920b-3537-9a00-91807b4b52ca.htm">
+        <HelpTOCNode Id="c50927da-275e-4633-9a0a-ae12fe05b625" Title="TraceRouteCompleteEventArgs Class" Url="html/1039c920-1108-4e17-9e9d-e0d97954ea39.htm">
+          <HelpTOCNode Id="820327fd-717a-4665-879c-6741b9611911" Title="TraceRouteCompleteEventArgs Constructor " Url="html/51637423-920b-3537-9a00-91807b4b52ca.htm">
             <HelpTOCNode Title="TraceRouteCompleteEventArgs Constructor " Url="html/cb07d270-888a-d1ad-51bc-28751f707568.htm" />
             <HelpTOCNode Title="TraceRouteCompleteEventArgs Constructor (List(TraceRouteHopDetail))" Url="html/4620fe58-ee00-3e01-17ab-cae25e057dd6.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="4a40f38a-441a-49a1-8e18-a3bfe3515ac4" Title="TraceRouteCompleteEventArgs Properties" Url="html/867a2604-3831-7ba1-405c-6a3f979a7126.htm">
+          <HelpTOCNode Id="9080f88e-f065-4ff7-a528-cfa071b90866" Title="TraceRouteCompleteEventArgs Properties" Url="html/867a2604-3831-7ba1-405c-6a3f979a7126.htm">
             <HelpTOCNode Title="TraceRouteHops Property " Url="html/9419b048-265a-f4c5-75be-af971e6d4d45.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="TraceRouteCompleteEventArgs Methods" Url="html/2428a3f4-ff55-c046-59ca-a6b7b28896db.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="0d4223f2-45dd-4774-85e9-dff0b3f26135" Title="TraceRouteExceptionException Class" Url="html/0cc1a799-9bc3-99c7-7eb0-5b00ed6f7f95.htm">
-          <HelpTOCNode Id="14eae0f1-ee12-4681-b278-89f5165f62e2" Title="TraceRouteExceptionException Constructor " Url="html/52b41c13-5695-a558-b2fd-53c440e8f18c.htm">
+        <HelpTOCNode Id="5a063076-5e8d-4576-84f3-8c7e52385eeb" Title="TraceRouteExceptionException Class" Url="html/0cc1a799-9bc3-99c7-7eb0-5b00ed6f7f95.htm">
+          <HelpTOCNode Id="e9b8ec3d-05cb-493b-9be2-bbd0ba6d1ffc" Title="TraceRouteExceptionException Constructor " Url="html/52b41c13-5695-a558-b2fd-53c440e8f18c.htm">
             <HelpTOCNode Title="TraceRouteExceptionException Constructor " Url="html/fd973343-bde6-72a7-9a8a-d7ea3d2d1a93.htm" />
             <HelpTOCNode Title="TraceRouteExceptionException Constructor (String)" Url="html/17c5aba2-6de9-1351-e19d-2120b5ce0c17.htm" />
             <HelpTOCNode Title="TraceRouteExceptionException Constructor (String, Exception)" Url="html/ab70ec95-eee1-6324-66bd-bb91a9138f87.htm" />
@@ -300,60 +300,60 @@
           <HelpTOCNode Title="TraceRouteExceptionException Methods" Url="html/38c5e09a-6032-a056-b0c8-e4a834550bd6.htm" />
           <HelpTOCNode Title="TraceRouteExceptionException Events" Url="html/b0c4dc30-65e3-0101-75d9-56ddc27912c6.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="d3621955-54e9-404b-86ff-b107140786a0" Title="TraceRouteHopDetail Class" Url="html/a756600d-ee78-ec0a-2631-0afafc34282c.htm">
-          <HelpTOCNode Id="5ff189af-f485-442e-966f-1ff8cb72b18b" Title="TraceRouteHopDetail Constructor " Url="html/9574e754-2aca-217e-5732-8c882851e1c5.htm">
+        <HelpTOCNode Id="19f30124-4a2d-47f0-ab6c-b95fd29461c1" Title="TraceRouteHopDetail Class" Url="html/a756600d-ee78-ec0a-2631-0afafc34282c.htm">
+          <HelpTOCNode Id="2b64b68b-8698-44e1-be10-565700bbc7d9" Title="TraceRouteHopDetail Constructor " Url="html/9574e754-2aca-217e-5732-8c882851e1c5.htm">
             <HelpTOCNode Title="TraceRouteHopDetail Constructor " Url="html/343d0199-8b8f-e100-8f26-befbb2ab616b.htm" />
             <HelpTOCNode Title="TraceRouteHopDetail Constructor (Int32, String, String, TimeSpan)" Url="html/458710e3-586e-ba53-cc90-1fcf864e5477.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="3745f610-26f3-4cfa-9840-d53c82d4d500" Title="TraceRouteHopDetail Properties" Url="html/8abe8cbd-6aba-fb51-71bc-6b55acdc0d19.htm">
+          <HelpTOCNode Id="6bf5ba27-6347-40e7-b62f-25eddc12c786" Title="TraceRouteHopDetail Properties" Url="html/8abe8cbd-6aba-fb51-71bc-6b55acdc0d19.htm">
             <HelpTOCNode Title="FormattedTextHeader Property " Url="html/59f4f4a2-a4d2-375c-02b8-b721053986b0.htm" />
             <HelpTOCNode Title="HopNumber Property " Url="html/5d25ddc7-32f5-1e73-4d76-16df78580dc6.htm" />
             <HelpTOCNode Title="HostName Property " Url="html/8ee34a74-d666-e95e-445e-dfeca9dbcabe.htm" />
             <HelpTOCNode Title="IPAddress Property " Url="html/a2bcf845-9297-4ca0-4db1-8e23b7db9a11.htm" />
             <HelpTOCNode Title="ResponseTime Property " Url="html/8b8743f1-7e53-cc4e-3dfd-45c24b2d0154.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="afdce741-cc09-4ea3-baab-1095ac3e4e06" Title="TraceRouteHopDetail Methods" Url="html/2cf1f15a-9346-b522-e93c-e8cbf1efc8d6.htm">
+          <HelpTOCNode Id="e80c551a-a519-4da2-bd85-27e1ace9f197" Title="TraceRouteHopDetail Methods" Url="html/2cf1f15a-9346-b522-e93c-e8cbf1efc8d6.htm">
             <HelpTOCNode Title="ToString Method " Url="html/dc09ac11-ecc4-a85f-a265-2fa47eda6551.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="bfe01923-c4fb-4f87-8063-0e82f8f7691a" Title="TraceRouteManager Class" Url="html/b3763d4b-0c59-915c-253a-c7cba3f89028.htm">
+        <HelpTOCNode Id="353c99ac-5740-4048-85b3-b18f7f9ad822" Title="TraceRouteManager Class" Url="html/b3763d4b-0c59-915c-253a-c7cba3f89028.htm">
           <HelpTOCNode Title="TraceRouteManager Constructor " Url="html/8b3e506f-2b51-a748-37cd-e3db5de5b959.htm" />
-          <HelpTOCNode Id="ea76a027-eabf-47c5-a41e-146ace32622f" Title="TraceRouteManager Properties" Url="html/c4b8e26c-9664-ccde-d23d-85f1b6b01937.htm">
+          <HelpTOCNode Id="12e2a9e7-b166-4f21-8a5b-a8ee4f8ed68f" Title="TraceRouteManager Properties" Url="html/c4b8e26c-9664-ccde-d23d-85f1b6b01937.htm">
             <HelpTOCNode Title="CurrentCancellationTokenSource Property " Url="html/84a45199-4070-fe14-07f6-c6b834309056.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="d90a3d0c-384d-4e1a-a551-aeaaab394cac" Title="TraceRouteManager Methods" Url="html/4dd3c0b3-fe7b-bbe3-f437-75d4398c5521.htm">
+          <HelpTOCNode Id="c446f1ef-77ce-47d9-8a64-7f1532064083" Title="TraceRouteManager Methods" Url="html/4dd3c0b3-fe7b-bbe3-f437-75d4398c5521.htm">
             <HelpTOCNode Title="Cancel Method " Url="html/91d2bd0f-55ca-f63d-1459-e29ec31b03bb.htm" />
             <HelpTOCNode Title="ExecuteTraceRoute Method " Url="html/580f851f-1d3a-a34f-e92a-ee0bdece3be1.htm" />
             <HelpTOCNode Title="GetResponseTime Method " Url="html/285d7d66-1d1a-bf84-4648-438039a929ab.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="7a50afdd-7a82-4485-83fb-d68d3e219121" Title="TraceRouteManager Events" Url="html/422d7e94-4850-1697-ab9a-5aa94a0b5e59.htm">
+          <HelpTOCNode Id="5380364e-7d54-46e6-8ca9-ead0b22c19cc" Title="TraceRouteManager Events" Url="html/422d7e94-4850-1697-ab9a-5aa94a0b5e59.htm">
             <HelpTOCNode Title="TraceRouteComplete Event" Url="html/e26d83eb-aa6a-4b47-d469-4c8fafbbe998.htm" />
             <HelpTOCNode Title="TraceRouteNodeFound Event" Url="html/a0884ae4-8852-e1ae-9322-040994f35fa7.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="90a408d8-689f-4559-9bba-61e9fbcbb5b1" Title="TraceRouteNodeFoundEventArgs Class" Url="html/265b0644-bc45-8033-344c-354d572af72b.htm">
-          <HelpTOCNode Id="cbf1c485-a978-4e7b-9a03-cbb05dd8be8f" Title="TraceRouteNodeFoundEventArgs Constructor " Url="html/b8f3f58d-f30b-c327-7fc7-ed3cfc1f577c.htm">
+        <HelpTOCNode Id="f4b1ccb1-20a2-4a1d-b3af-1f1e4aeb3ccc" Title="TraceRouteNodeFoundEventArgs Class" Url="html/265b0644-bc45-8033-344c-354d572af72b.htm">
+          <HelpTOCNode Id="943376ea-5003-46af-bf9b-0a03d12a7606" Title="TraceRouteNodeFoundEventArgs Constructor " Url="html/b8f3f58d-f30b-c327-7fc7-ed3cfc1f577c.htm">
             <HelpTOCNode Title="TraceRouteNodeFoundEventArgs Constructor " Url="html/d7a5f0b2-4757-6745-21b0-d6db732f322d.htm" />
             <HelpTOCNode Title="TraceRouteNodeFoundEventArgs Constructor (TraceRouteHopDetail)" Url="html/fef528be-3d8f-9678-57fa-4a15a262d04e.htm" />
           </HelpTOCNode>
-          <HelpTOCNode Id="c8d39cf3-9a3a-4f18-876f-4627dde97498" Title="TraceRouteNodeFoundEventArgs Properties" Url="html/da008754-e160-12fe-c439-6f5d262f8af6.htm">
+          <HelpTOCNode Id="086c0a63-d929-4f26-9d0d-15a9f9585a0f" Title="TraceRouteNodeFoundEventArgs Properties" Url="html/da008754-e160-12fe-c439-6f5d262f8af6.htm">
             <HelpTOCNode Title="Detail Property " Url="html/38b31050-da26-18ba-b5f9-fc16b62942ef.htm" />
           </HelpTOCNode>
           <HelpTOCNode Title="TraceRouteNodeFoundEventArgs Methods" Url="html/f21fb99e-6108-9394-60d2-1b3467bf8c05.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="f2ba1f38-8d12-4c5b-8f17-348cb5dcfc44" Title="MeaMod.Utilities.NetworkTools.Whois" Url="html/76793561-0420-a0e0-5da4-3a88d8f8a2ee.htm">
-        <HelpTOCNode Id="5cdd9f3a-5340-416b-8716-f6dd6d6326b1" Title="IWhoisManager Interface" Url="html/9ab103e4-2711-2a4d-f391-cdf329f49cd9.htm">
-          <HelpTOCNode Id="26749ac1-5732-4820-a2d0-55f7adaf5c55" Title="IWhoisManager Methods" Url="html/b0664ccb-299b-da06-2581-6e281381ae9d.htm">
-            <HelpTOCNode Id="4c30cb4b-905c-47c3-8dca-f4bb6cd5161a" Title="ExecuteWhoisForDomain Method " Url="html/e03d1a0a-0e76-9762-7118-eb39cf7746a1.htm">
+      <HelpTOCNode Id="c697fc53-1e05-4ca5-8f86-519be812df89" Title="MeaMod.Utilities.NetworkTools.Whois" Url="html/76793561-0420-a0e0-5da4-3a88d8f8a2ee.htm">
+        <HelpTOCNode Id="6336a015-337c-4f07-b336-1d3e4051be86" Title="IWhoisManager Interface" Url="html/9ab103e4-2711-2a4d-f391-cdf329f49cd9.htm">
+          <HelpTOCNode Id="0ef5ff9b-82af-4bfe-a5db-8f87b84a41e6" Title="IWhoisManager Methods" Url="html/b0664ccb-299b-da06-2581-6e281381ae9d.htm">
+            <HelpTOCNode Id="abef02d6-caf0-40dc-a031-69abb7384ab7" Title="ExecuteWhoisForDomain Method " Url="html/e03d1a0a-0e76-9762-7118-eb39cf7746a1.htm">
               <HelpTOCNode Title="ExecuteWhoisForDomain Method (String)" Url="html/5f699268-e5bd-214e-b2a4-05cf5304fddd.htm" />
               <HelpTOCNode Title="ExecuteWhoisForDomain Method (String, String)" Url="html/0ed8fd98-8a37-9c69-1cff-ee858e08b34b.htm" />
             </HelpTOCNode>
             <HelpTOCNode Title="FindWhoisServerInOutput Method " Url="html/f24bfeef-2366-d36d-87dc-d50e7026bd76.htm" />
           </HelpTOCNode>
         </HelpTOCNode>
-        <HelpTOCNode Id="b21bfb22-7cb7-443b-a0e4-58f4b59b11ff" Title="WhoisException Class" Url="html/5ffa32f9-259a-0529-4028-b5d9383c9293.htm">
-          <HelpTOCNode Id="1e6e9926-cfd6-4f1e-91be-15420cb4766f" Title="WhoisException Constructor " Url="html/79cf17ab-0c15-cacc-4ab9-b25bdba30923.htm">
+        <HelpTOCNode Id="211aa854-d244-4f0b-917a-60c36f529bf3" Title="WhoisException Class" Url="html/5ffa32f9-259a-0529-4028-b5d9383c9293.htm">
+          <HelpTOCNode Id="7d77d9e8-4548-4ce5-8659-f538bc0b04ae" Title="WhoisException Constructor " Url="html/79cf17ab-0c15-cacc-4ab9-b25bdba30923.htm">
             <HelpTOCNode Title="WhoisException Constructor " Url="html/98af8ef6-cff7-2d1c-6290-8a1b9f040d54.htm" />
             <HelpTOCNode Title="WhoisException Constructor (String)" Url="html/d8071948-04b2-82df-90ee-b1f7996f5378.htm" />
             <HelpTOCNode Title="WhoisException Constructor (String, Exception)" Url="html/9972749f-9eab-9a14-f1b7-5f9be11aa4bf.htm" />
@@ -362,10 +362,10 @@
           <HelpTOCNode Title="WhoisException Methods" Url="html/06263130-49b8-8a68-3eab-1200257bd29b.htm" />
           <HelpTOCNode Title="WhoisException Events" Url="html/cc3719e4-a4c7-0f7f-3d9d-ef7bc70713f7.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="82905936-d3f7-4556-9830-a92e67853cc5" Title="WhoisManager Class" Url="html/f64de5b8-ca45-7b08-edc2-1fb32ab3af1f.htm">
+        <HelpTOCNode Id="8996c214-2f9d-4960-ac1d-ff36091ae778" Title="WhoisManager Class" Url="html/f64de5b8-ca45-7b08-edc2-1fb32ab3af1f.htm">
           <HelpTOCNode Title="WhoisManager Constructor " Url="html/75b3c7f2-c326-d838-5d29-5f9a5a88afa8.htm" />
-          <HelpTOCNode Id="7a45cb7b-20fb-4e8f-b1a4-5440273af5d2" Title="WhoisManager Methods" Url="html/098e8cae-77b9-2ec4-1488-be811a4ad6f6.htm">
-            <HelpTOCNode Id="d9117bf5-ecdc-4b97-9d66-192bd895d5ce" Title="ExecuteWhoisForDomain Method " Url="html/feb45e0e-443a-8c20-ef09-5e16e6c0889f.htm">
+          <HelpTOCNode Id="269cb6d3-3ee9-4b66-87f7-b0e2d991ae8c" Title="WhoisManager Methods" Url="html/098e8cae-77b9-2ec4-1488-be811a4ad6f6.htm">
+            <HelpTOCNode Id="1a4f29d2-89bb-43e2-a476-b0f945cdeab6" Title="ExecuteWhoisForDomain Method " Url="html/feb45e0e-443a-8c20-ef09-5e16e6c0889f.htm">
               <HelpTOCNode Title="ExecuteWhoisForDomain Method (String)" Url="html/d496a3b5-9f80-e937-6b29-e62a65c595ae.htm" />
               <HelpTOCNode Title="ExecuteWhoisForDomain Method (String, String)" Url="html/4a25eb06-4b5d-34de-ba26-56f8c3a439d2.htm" />
             </HelpTOCNode>

@@ -59,7 +59,7 @@ namespace MeaMod.Utilities
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
         /// <param name="DefaultValue">Default value if <paramref name="ValueName"/> does not exist</param>
-        /// <returns>Returns boolean of ValueName</returns>
+        /// <returns>The boolean from <paramref name="ValueName"/> or <paramref name="DefaultValue"/> if <paramref name="ValueName"/> does not exist</returns>
         public static bool GetBooleanSetting(string BaseKey,string AppNameSubKey, string ValueName, bool DefaultValue = false)
         {
             bool flag = DefaultValue;
@@ -87,7 +87,7 @@ namespace MeaMod.Utilities
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
         /// <param name="DefaultValue">Default value if <paramref name="ValueName"/> does not exist</param>
-        /// <returns>Returns boolean of ValueName</returns>
+        /// <returns>The boolean from <paramref name="ValueName"/> or <paramref name="DefaultValue"/> if <paramref name="ValueName"/> does not exist</returns>
         public static bool GetBooleanSettingLM(string BaseKey, string AppNameSubKey, string ValueName, bool DefaultValue = false)
         {
             bool flag = DefaultValue;
@@ -115,6 +115,8 @@ namespace MeaMod.Utilities
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
         /// <returns>Returns string of ValueName</returns>
+        /// <returns>The string value from <paramref name="ValueName"/> or empty if <paramref name="ValueName"/> does not exist</returns>
+
         public static string GetSetting(string BaseKey, string AppNameSubKey, string ValueName)
         {
             string str = "";
@@ -141,7 +143,7 @@ namespace MeaMod.Utilities
         /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
-        /// <returns>Returns string of ValueName</returns>
+        /// <returns>The string value from <paramref name="ValueName"/> or empty if <paramref name="ValueName"/> does not exist</returns>
         public static string GetSettingLM(string BaseKey, string AppNameSubKey, string ValueName)
         {
             string str = "";
@@ -168,7 +170,7 @@ namespace MeaMod.Utilities
         /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
-        /// <returns>Returns integer of ValueName</returns>
+        /// <returns>The integer value from <paramref name="ValueName"/> or 0 if <paramref name="ValueName"/> does not exist</returns>
         public static int GetInteger(string BaseKey, string AppNameSubKey, string ValueName)
         {
             int inti = 0;
@@ -195,7 +197,7 @@ namespace MeaMod.Utilities
         /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
-        /// <returns>Returns integer of ValueName</returns>
+        /// <returns>The integer value from <paramref name="ValueName"/> or 0 if <paramref name="ValueName"/> does not exist</returns>
         public static int GetIntegerLM(string BaseKey,string AppNameSubKey, string ValueName)
         {
             int inti = 0;

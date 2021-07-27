@@ -14,7 +14,6 @@
     <RootNamespace>MeaMod.Utilities.Documentation</RootNamespace>
     <Name>MeaMod.Utilities.Documentation</Name>
     <!-- SHFB properties -->
-    <FrameworkVersion>.NET Core/.NET Standard/.NET 5.0+</FrameworkVersion>
     <OutputPath>.\Help\</OutputPath>
     <HtmlHelpName>MeaMod Utilities Documentation</HtmlHelpName>
     <Language>en-US</Language>
@@ -109,6 +108,9 @@
   <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" Condition="'$(MSBuildRestoreSessionId)' == ''" />
   <!-- The pre-build and post-build event properties must appear *after* the targets file import in order to be
 			 evaluated correctly. -->
+  <PropertyGroup>
+  <FrameworkVersion>.NET Core/.NET Standard/.NET 5.0+</FrameworkVersion>
+  </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>
     </PreBuildEvent>

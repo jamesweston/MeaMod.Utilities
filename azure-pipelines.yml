@@ -26,6 +26,7 @@ steps:
     solution: '$(solution)'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+    msbuildArgs:  '/p:OutDir="$(Build.ArtifactStagingDirectory)"'
 
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact: MeaMod.Utilities'
+- publish: $(Build.ArtifactStagingDirectory)
+  artifact: MeaMod.Utilities

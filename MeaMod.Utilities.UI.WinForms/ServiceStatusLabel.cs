@@ -28,7 +28,7 @@ namespace MeaMod.Utilities.UI.WinForms
         }
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]
-        [Description("Status Color")]
+        [Description("Status Colour")]
         [Browsable(true)]
         public Color StatusColour
         {

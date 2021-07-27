@@ -55,7 +55,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method gets <paramref name="ValueName"/> as a boolean from the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
         /// <param name="DefaultValue">Default value if <paramref name="ValueName"/> does not exist</param>
@@ -83,7 +83,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method gets <paramref name="ValueName"/> as a boolean from the local machine registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
         /// <param name="DefaultValue">Default value if <paramref name="ValueName"/> does not exist</param>
@@ -111,7 +111,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method gets <paramref name="ValueName"/> as a string from the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
         /// <returns>Returns string of ValueName</returns>
@@ -140,7 +140,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method gets <paramref name="ValueName"/> as a string from the current user registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
         /// <returns>The string value from <paramref name="ValueName"/> or empty if <paramref name="ValueName"/> does not exist</returns>
@@ -167,7 +167,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method gets <paramref name="ValueName"/> as a integer from the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
         /// <returns>The integer value from <paramref name="ValueName"/> or 0 if <paramref name="ValueName"/> does not exist</returns>
@@ -194,7 +194,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method gets <paramref name="ValueName"/> as a integer from the local machine registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value to retrieve</param>
         /// <returns>The integer value from <paramref name="ValueName"/> or 0 if <paramref name="ValueName"/> does not exist</returns>
@@ -221,7 +221,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method saves <paramref name="ValueName"/> as a boolean to the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value</param>
         /// <param name="Value">Value to be saved as boolean</param>
@@ -243,7 +243,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method saves <paramref name="ValueName"/> as a boolean to the local machine registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base SubKey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value</param>
         /// <param name="Value">Value to be saved as boolean</param>
@@ -265,7 +265,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method saves <paramref name="ValueName"/> as a string to the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base Subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value</param>
         /// <param name="Value">Value to be saved as string</param>
@@ -287,7 +287,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method saves <paramref name="ValueName"/> as a string to the local machine registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base Subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value</param>
         /// <param name="Value">Value to be saved as string</param>
@@ -309,7 +309,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method saves <paramref name="ValueName"/> as a integer to the current user registry located in HKCU\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base Subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKCU</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value</param>
         /// <param name="Value">Value to be saved as integer</param>
@@ -331,7 +331,7 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>This method saves <paramref name="ValueName"/> as a integer to the local machine registry located in HKLM\<paramref name="BaseKey"/>\<paramref name="AppNameSubKey"/>\<paramref name="ValueName"/></summary>
-        /// <param name="BaseKey">Base Subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
+        /// <param name="BaseKey">Base subkey and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
         /// <param name="AppNameSubKey">Name of the SubKey that <paramref name="ValueName"/> is located in under <paramref name="BaseKey"/></param>
         /// <param name="ValueName">Name of value</param>
         /// <param name="Value">Value to be saved as integer</param>

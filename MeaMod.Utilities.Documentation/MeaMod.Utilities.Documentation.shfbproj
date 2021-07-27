@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+ <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <!-- The configuration and platform will be used to determine which assemblies to include from solution and
 				 project documentation sources -->
@@ -60,15 +60,14 @@
     </RootNamespaceTitle>
     <NamespaceSummaries>
       <NamespaceSummaryItem name="(global)" isDocumented="True" />
-      <NamespaceSummaryItem name="MeaMod.Utilities" isDocumented="True" />
-      <NamespaceSummaryItem name="MeaMod.Utilities.Cryptography" isDocumented="True" />
-      <NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools.TraceRoute" isDocumented="True" />
-      <NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools.Whois" isDocumented="True" />
-      <NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools" isDocumented="True" />
-      <NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools.Extensions" isDocumented="True" />
-      <NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools.IcmpPing" isDocumented="True" />
-      <NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools.PortScan" isDocumented="True" />
-    </NamespaceSummaries>
+<NamespaceSummaryItem name="MeaMod.Utilities" isDocumented="True" />
+<NamespaceSummaryItem name="MeaMod.Utilities.Cryptography" isDocumented="True" />
+<NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools.TraceRoute" isDocumented="True" />
+<NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools.Whois" isDocumented="True" />
+<NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools" isDocumented="True" />
+<NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools.Extensions" isDocumented="True" />
+<NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools.IcmpPing" isDocumented="True" />
+<NamespaceSummaryItem name="MeaMod.Utilities.NetworkTools.PortScan" isDocumented="True" /></NamespaceSummaries>
   </PropertyGroup>
   <!-- There are no properties for these groups.  AnyCPU needs to appear in order for Visual Studio to perform
 			 the build.  The others are optional common platform types that may appear. -->
@@ -99,18 +98,17 @@
   <ItemGroup>
     <Content Include="icons\Help.png" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="EWSoftware.SHFB" Version="2021.4.9" />
-    <PackageReference Include="EWSoftware.SHFB.NETFramework" Version="4.8.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="EWSoftware.SHFB" Version="2021.4.9" />
+		<PackageReference Include="EWSoftware.SHFB.NET" Version="5.0.0" />
+	</ItemGroup>
   <!-- Import the common build targets during NuGet restore because before the packages are being installed, $(SHFBROOT) is not set yet -->
-  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="'$(MSBuildRestoreSessionId)' != ''" />
-  <!-- Import the SHFB build targets during build -->
-  <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" Condition="'$(MSBuildRestoreSessionId)' == ''" />
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists('$(SHFBROOT)\SandcastleHelpFileBuilder.targets')" />
+    <Import Project="$(SHFBROOT)\SandcastleHelpFileBuilder.targets" Condition="Exists('$(SHFBROOT)\SandcastleHelpFileBuilder.targets')" />
   <!-- The pre-build and post-build event properties must appear *after* the targets file import in order to be
 			 evaluated correctly. -->
   <PropertyGroup>
-    <FrameworkVersion>.NET Framework 4.8</FrameworkVersion>
+  <FrameworkVersion>.NET Core/.NET Standard/.NET 5.0+</FrameworkVersion>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>

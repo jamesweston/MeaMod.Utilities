@@ -7,7 +7,7 @@ namespace MeaMod.Utilities.UI.WinForms
 {
     public class ServiceStatusLabel : Control
     {
-        private string _Status = "Demo";
+        private string _Status = "Status";
         private Color _StatusColour = Color.Green;
 
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Content)]

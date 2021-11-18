@@ -177,7 +177,20 @@ namespace MeaMod.Utilities
             try
             {
                 var registryKey = Registry.CurrentUser.OpenSubKey(string.Concat(BaseKey, AppNameSubKey), RegistryKeyPermissionCheck.ReadSubTree);
-                inti = int.Parse((string)registryKey.GetValue(ValueName));
+                RegistryValueKind rvk = registryKey.GetValueKind(ValueName);
+                switch (rvk)
+                {
+
+                    case RegistryValueKind.DWord:
+                        inti = (int)registryKey.GetValue(ValueName);
+                        break;
+                    case RegistryValueKind.QWord:
+                        inti = (int)registryKey.GetValue(ValueName);
+                        break;
+                    case RegistryValueKind.String:
+                        inti = int.Parse((string)registryKey.GetValue(ValueName));
+                        break;
+                }
                 registryKey.Close();
             }
             catch (NullReferenceException)
@@ -204,7 +217,20 @@ namespace MeaMod.Utilities
             try
             {
                 var registryKey = Registry.LocalMachine.OpenSubKey(string.Concat(BaseKey, AppNameSubKey), RegistryKeyPermissionCheck.ReadSubTree);
-                inti = int.Parse((string)registryKey.GetValue(ValueName));
+                RegistryValueKind rvk = registryKey.GetValueKind(ValueName);
+                switch (rvk)
+                {
+
+                    case RegistryValueKind.DWord:
+                        inti = (int)registryKey.GetValue(ValueName);
+                        break;
+                    case RegistryValueKind.QWord:
+                        inti = (int)registryKey.GetValue(ValueName);
+                        break;
+                    case RegistryValueKind.String:
+                        inti = int.Parse((string)registryKey.GetValue(ValueName));
+                        break;
+                }
                 registryKey.Close();
             }
             catch (NullReferenceException)

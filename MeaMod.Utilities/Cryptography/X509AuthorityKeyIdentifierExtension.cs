@@ -10,6 +10,7 @@ namespace MeaMod.Utilities.Cryptography
 {
     /// <summary>
     /// Add X509AuthorityKeyIdentifierExtension to .net standard 2.0
+    /// <para><see href="https://shawinnes.com/dotnet-x509-extensions/"/></para>
     /// </summary>
     public class X509AuthorityKeyIdentifierExtension : X509Extension
     {

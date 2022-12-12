@@ -3,8 +3,10 @@ using System.Text;
 
 namespace MeaMod.Utilities.Cryptography
 {
+    [Obsolete("Hash is deprecated, please use System.Security.Cryptography instead.")]
     public class Hash
     {
+        [Obsolete("MD5 is deprecated, please use System.Security.Cryptography.MD5 instead.")]
         public static string MD5(string strToEncrypt)
         {
             var ue = new UTF8Encoding();
@@ -22,6 +24,7 @@ namespace MeaMod.Utilities.Cryptography
             return hashString.PadLeft(32, '0');
         }
 
+        [Obsolete("SHA1 is deprecated, please use System.Security.Cryptography.SHA1 instead.")]
         public static string SHA1(string strToEncrypt)
         {
             var ue = new UTF8Encoding();
@@ -39,6 +42,7 @@ namespace MeaMod.Utilities.Cryptography
             return hashString.PadLeft(32, '0');
         }
 
+        [Obsolete("SHA265 is deprecated, please use System.Security.Cryptography.SHA265 instead.")]
         public static string SHA256(string strToEncrypt)
         {
             var ue = new UTF8Encoding();
@@ -56,6 +60,7 @@ namespace MeaMod.Utilities.Cryptography
             return hashString.PadLeft(32, '0');
         }
 
+        [Obsolete("SHA384 is deprecated, please use System.Security.Cryptography.SHA384 instead.")]
         public static string SHA384(string strToEncrypt)
         {
             var ue = new UTF8Encoding();
@@ -73,6 +78,7 @@ namespace MeaMod.Utilities.Cryptography
             return hashString.PadLeft(32, '0');
         }
 
+        [Obsolete("SHA512 is deprecated, please use System.Security.Cryptography.SHA512 instead.")]
         public static string SHA512(string strToEncrypt)
         {
             var ue = new UTF8Encoding();

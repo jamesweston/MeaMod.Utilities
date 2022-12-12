@@ -2,6 +2,7 @@
 
 namespace MeaMod.Utilities.Cryptography
 {
+    [Obsolete("TripleDES is deprecated, please use System.Security.Cryptography.TripleDES instead.")]
     public class TripleDES
     {
         public static string EncryptTripleDES(string sIn, string sKey)

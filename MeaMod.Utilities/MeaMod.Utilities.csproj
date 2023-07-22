@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net45;net5.0-windows;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net45;net6.0-windows;net7.0-windows</TargetFrameworks>
     <Company>MeaMod Group</Company>
-    <Copyright>Copyright © 2022 James Weston (MeaMod Group)</Copyright>
+    <Copyright>Copyright © 2023 James Weston (MeaMod Group)</Copyright>
     <Authors>MeaMod Group</Authors>
     <Description>MeaMod.Utilities is a collection of useful utilities and classes for .NET development</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -19,6 +19,7 @@
 	<LangVersion>latest</LangVersion>
 	<PackageIcon>MeaMod-Utilities.png</PackageIcon>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard2.0|AnyCPU'">
@@ -34,9 +35,13 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net5.0-windows|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-windows|AnyCPU'">
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-windows|AnyCPU'">
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -56,9 +61,13 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net5.0-windows|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-windows|AnyCPU'">
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-windows|AnyCPU'">
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net45|AnyCPU'">
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -72,13 +81,6 @@
 	<PackageReference Include="System.Buffers" Version="4.5.1" />
   </ItemGroup>
 
-  <ItemGroup Condition="'$(TargetFramework)' == 'net5.0-windows'">
-	 <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
-    <PackageReference Include="System.Diagnostics.EventLog" Version="5.0.0" />
-    <PackageReference Include="System.Management" Version="5.0.0" />
-    <PackageReference Include="System.ServiceProcess.ServiceController" Version="5.0.0" />
-  </ItemGroup>
-
 	<ItemGroup Condition="'$(TargetFramework)' == 'net6.0-windows'">
 		<PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
 		<PackageReference Include="System.Diagnostics.EventLog" Version="6.0.0" />
@@ -86,10 +88,18 @@
 		<PackageReference Include="System.ServiceProcess.ServiceController" Version="6.0.0" />
 	</ItemGroup>
 
+	<ItemGroup Condition="'$(TargetFramework)' == 'net7.0-windows'">
+		<PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
+		<PackageReference Include="System.Diagnostics.EventLog" Version="7.0.0" />
+		<PackageReference Include="System.Management" Version="7.0.0" />
+		<PackageReference Include="System.ServiceProcess.ServiceController" Version="7.0.0" />
+	</ItemGroup>
+
   <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
     <Reference Include="System.Management" />
     <Reference Include="System.ServiceProcess" />
 	<Reference Include="System.IO.Compression" />
+	<Reference Include="System.Windows.Forms" />
 	<PackageReference Include="System.Buffers" Version="4.5.1" />
   </ItemGroup>
 
@@ -98,10 +108,5 @@
 		<None Include="..\images\MeaMod-Utilities.png" Pack="true" PackagePath="\" />
 	</ItemGroup>
 
-    <ItemGroup>
-      <Reference Include="System.Windows.Forms">
-        <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll</HintPath>
-      </Reference>
-    </ItemGroup>
-
 </Project>
+ 

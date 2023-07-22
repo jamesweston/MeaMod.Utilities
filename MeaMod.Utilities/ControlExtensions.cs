@@ -1,5 +1,8 @@
-﻿using System;
+﻿#if !NETSTANDARD
+using System;
 using System.Windows.Forms;
+
+
 
 namespace MeaMod.Utilities
 {
@@ -27,3 +30,4 @@ namespace MeaMod.Utilities
         }
     }
 }
+#endif

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace MeaMod.Utilities
+namespace MeaMod.Utilities.Logging
 {
     /// <summary>The LogEvent class contains methods to access log to the Windows Event Log</summary>
     public class LogEvent

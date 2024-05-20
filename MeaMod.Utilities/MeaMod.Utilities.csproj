@@ -1,9 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net45;net6.0-windows;net7.0-windows</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net45;net6.0-windows;net7.0-windows;net8.0-windows</TargetFrameworks>
     <Company>MeaMod Group</Company>
-    <Copyright>Copyright © 2023 James Weston (MeaMod Group)</Copyright>
+    <Copyright>Copyright © 2024 James Weston (MeaMod Group)</Copyright>
     <Authors>MeaMod Group</Authors>
     <Description>MeaMod.Utilities is a collection of useful utilities and classes for .NET development</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -43,6 +43,10 @@
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-windows|AnyCPU'">
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
@@ -66,6 +70,10 @@
   </PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-windows|AnyCPU'">
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-windows|AnyCPU'">
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 	</PropertyGroup>
 
@@ -93,6 +101,13 @@
 		<PackageReference Include="System.Diagnostics.EventLog" Version="7.0.0" />
 		<PackageReference Include="System.Management" Version="7.0.0" />
 		<PackageReference Include="System.ServiceProcess.ServiceController" Version="7.0.0" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'net8.0-windows'">
+		<PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
+		<PackageReference Include="System.Diagnostics.EventLog" Version="8.0.0" />
+		<PackageReference Include="System.Management" Version="8.0.0" />
+		<PackageReference Include="System.ServiceProcess.ServiceController" Version="8.0.0" />
 	</ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">

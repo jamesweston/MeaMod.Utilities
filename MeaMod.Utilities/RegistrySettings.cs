@@ -34,7 +34,7 @@ namespace MeaMod.Utilities
         /// <param name="baseKey">Base sub key and should look like SOFTWARE\MeaModGroup\ and will be located in HKLM</param>
         /// <param name="appNameSubKey">Name of the SubKey that <paramref name="valueName"/> is located in under <paramref name="baseKey"/></param>
         /// <param name="valueName">Name of registry value to delete</param>
-        public static void DeleteSettingLm(string baseKey, string appNameSubKey, string valueName)
+        public static void DeleteSettingLM(string baseKey, string appNameSubKey, string valueName)
         {
             try
             {
@@ -91,7 +91,7 @@ namespace MeaMod.Utilities
         /// <param name="valueName">Name of value to retrieve</param>
         /// <param name="defaultValue">Default value if <paramref name="valueName"/> does not exist</param>
         /// <returns>The boolean from <paramref name="valueName"/> or <paramref name="defaultValue"/> if <paramref name="valueName"/> does not exist</returns>
-        public static bool GetBooleanSettingLm(string baseKey, string appNameSubKey, string valueName, bool defaultValue = false)
+        public static bool GetBooleanSettingLM(string baseKey, string appNameSubKey, string valueName, bool defaultValue = false)
         {
             bool flag = defaultValue;
             try
@@ -153,7 +153,7 @@ namespace MeaMod.Utilities
         /// <param name="appNameSubKey">Name of the SubKey that <paramref name="valueName"/> is located in under <paramref name="baseKey"/></param>
         /// <param name="valueName">Name of value to retrieve</param>
         /// <returns>The string value from <paramref name="valueName"/> or empty if <paramref name="valueName"/> does not exist</returns>
-        public static string GetSettingLm(string baseKey, string appNameSubKey, string valueName)
+        public static string GetSettingLM(string baseKey, string appNameSubKey, string valueName)
         {
             string resultString = "";
             try
@@ -229,7 +229,7 @@ namespace MeaMod.Utilities
         /// <param name="appNameSubKey">Name of the SubKey that <paramref name="valueName"/> is located in under <paramref name="baseKey"/></param>
         /// <param name="valueName">Name of value to retrieve</param>
         /// <returns>The integer value from <paramref name="valueName"/> or 0 if <paramref name="valueName"/> does not exist</returns>
-        public static int GetIntegerLm(string baseKey,string appNameSubKey, string valueName)
+        public static int GetIntegerLM(string baseKey,string appNameSubKey, string valueName)
         {
             int resultInteger = 0;
             try
@@ -305,7 +305,7 @@ namespace MeaMod.Utilities
         /// <param name="appNameSubKey">Name of the SubKey that <paramref name="valueName"/> is located in under <paramref name="baseKey"/></param>
         /// <param name="valueName">Name of value</param>
         /// <param name="value">Value to be saved as boolean</param>
-        public static void SaveBooleanSettingLm(string baseKey, string appNameSubKey, string valueName, bool value)
+        public static void SaveBooleanSettingLM(string baseKey, string appNameSubKey, string valueName, bool value)
         {
             try
             {
@@ -361,7 +361,7 @@ namespace MeaMod.Utilities
         /// <param name="appNameSubKey">Name of the SubKey that <paramref name="valueName"/> is located in under <paramref name="baseKey"/></param>
         /// <param name="valueName">Name of value</param>
         /// <param name="value">Value to be saved as string</param>
-        public static void SaveSettingLm(string baseKey, string appNameSubKey, string valueName, string value)
+        public static void SaveSettingLM(string baseKey, string appNameSubKey, string valueName, string value)
         {
             try
             {
@@ -417,7 +417,7 @@ namespace MeaMod.Utilities
         /// <param name="appNameSubKey">Name of the SubKey that <paramref name="valueName"/> is located in under <paramref name="baseKey"/></param>
         /// <param name="valueName">Name of value</param>
         /// <param name="value">Value to be saved as integer</param>
-        public static void SaveIntegerLm(string baseKey, string appNameSubKey, string valueName, int value)
+        public static void SaveIntegerLM(string baseKey, string appNameSubKey, string valueName, int value)
         {
             try
             {

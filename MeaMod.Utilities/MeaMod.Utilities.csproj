@@ -7,14 +7,14 @@
     <Authors>MeaMod Group</Authors>
     <Description>MeaMod.Utilities is a collection of useful utilities and classes for .NET development</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <AssemblyVersion>1.5.0.226</AssemblyVersion>
-    <FileVersion>1.5.0.226</FileVersion>
+    <AssemblyVersion>1.6.0.230</AssemblyVersion>
+    <FileVersion>1.6.0.230</FileVersion>
     <PackageProjectUrl>https://github.com/meamod/MeaMod.Utilities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/meamod/MeaMod.Utilities</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>utilities</PackageTags>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.5.0</Version>
+    <Version>1.6.0</Version>
     <NeutralLanguage>en-GB</NeutralLanguage>
 	<LangVersion>latest</LangVersion>
 	<PackageIcon>MeaMod-Utilities.png</PackageIcon>

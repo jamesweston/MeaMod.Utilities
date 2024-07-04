@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace MeaMod.Utilities.Cryptography
@@ -15,7 +16,7 @@ namespace MeaMod.Utilities.Cryptography
         /// </summary>
         /// <param name="hashAlgorithm">Specifies cryptographic hash algorithm.</param>
         /// <param name="input">Input string to be hashed</param>
-        /// <returns>Strong of hash</returns>
+        /// <returns>String of hash</returns>
         public static string GetHash(HashAlgorithm hashAlgorithm, string input)
         {
 
@@ -35,6 +36,39 @@ namespace MeaMod.Utilities.Cryptography
 
             // Return the hexadecimal string.
             return sBuilder.ToString();
+        }
+
+        /// <summary>
+        /// Computes the SHA256 hash value for the input string.
+        /// </summary>
+        /// <param name="input">Input string to be hashed</param>
+        /// <returns>SHA256 hash of input</returns>
+        public static string GetHashSHA256(string input)
+        {
+            using var hash = SHA256.Create();
+            return GetHash(hash, input);
+        }
+
+        /// <summary>
+        /// Computes the SHA384 hash value for the input string.
+        /// </summary>
+        /// <param name="input">Input string to be hashed</param>
+        /// <returns>SHA384 hash of input</returns>
+        public static string GetHashSHA384(string input)
+        {
+            using var hash = SHA384.Create();
+            return GetHash(hash, input);
+        }
+
+        /// <summary>
+        /// Computes the SHA512 hash value for the input string.
+        /// </summary>
+        /// <param name="input">Input string to be hashed</param>
+        /// <returns>SHA512 hash of input</returns>
+        public static string GetHashSHA512(string input)
+        {
+            using var hash = SHA512.Create();
+            return GetHash(hash, input);
         }
     }
 }

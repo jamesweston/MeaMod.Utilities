@@ -91,6 +91,36 @@ namespace MeaMod.Utilities
         }
 
         /// <summary>
+        /// TimeSpan to String with format of days and hours without minutes only showing the days and hours element if greater then 0, minute and seconds will only show if days and hours is lower than 0<br />
+        /// i.e. 0 days, 0 hours, 34 minutes, 12 seconds will show as 34:12<br />
+        /// i.e. 0 days, 1 hours, 34 minutes, 12 seconds will show as 1 hour<br />
+        /// i.e. 2 days, 1 hours, 34 minutes, 12 seconds will show as 2 days<br />  
+        /// i.e. 0 days, 0 hours, 0 minutes, 12 seconds will show as 00:12<br />
+        /// i.e. 0 days, 0 hours, 0 minutes, 02 seconds will show as 00:02
+        /// </summary>
+        /// <param name="span">TimeSpan Source</param>
+        /// <returns>String</returns>
+        public static string ToReadableStringDaysHoursMS(this TimeSpan span)
+        {
+
+            string formatted = span switch
+            {
+                TimeSpan { TotalDays: > 1 } => string.Format("{0:0} day{1}", span.Days, span.Days == 1 ? string.Empty : "s"),
+                TimeSpan { TotalHours: > 1 } => string.Format("{0:0} hour{1}", span.Hours, span.Hours == 1 ? string.Empty : "s"),
+                _ => string.Format("{0}{1}",
+                    string.Format("{0:D2}:", span.Minutes),
+                    string.Format("{0:D2}", span.Seconds))
+            };
+
+            
+            if (formatted.EndsWith(":")) formatted = formatted.Substring(0, formatted.Length - 1);
+
+            if (string.IsNullOrEmpty(formatted)) formatted = "00:00";
+
+            return formatted;
+        }
+
+        /// <summary>
         /// TimeSpan to String with format of 00:00:00:00 only showing the days element if greater then 0, hours, minutes and seconds will always show<br />
         /// i.e. 0 days, 0 hours, 34 minutes, 12 seconds will show as 00:34:12<br />
         /// i.e. 0 days, 1 hours, 34 minutes, 12 seconds will show as 01:34:12<br />

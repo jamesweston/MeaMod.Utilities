@@ -364,3 +364,5 @@ FodyWeavers.xsd
 /packagearchive
 MeaMod.Utilities.Documentation/Help/
 MeaMod.Utilities.Documentation/Help
+/MeaMod.UtilitiesTests/testfiles/vlc
+/MeaMod.UtilitiesTests/testfiles

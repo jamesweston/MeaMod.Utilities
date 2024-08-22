@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MeaMod.Utilities.Security\MeaMod.Utilities.Security.csproj" />
     <ProjectReference Include="..\MeaMod.Utilities\MeaMod.Utilities.csproj" />
   </ItemGroup>
 
@@ -24,4 +25,9 @@
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="testfiles\**">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>

@@ -11,6 +11,8 @@ Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "MeaMod.Utilities.Documentat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeaMod.Utilities.Tests", "MeaMod.UtilitiesTests\MeaMod.Utilities.Tests.csproj", "{12C9EA47-6E82-4DBB-9D31-EAA3CB517376}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeaMod.Utilities.Security", "MeaMod.Utilities.Security\MeaMod.Utilities.Security.csproj", "{28FD0FF7-EF7B-4FC2-BBC5-5EEB7F703144}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,11 +34,16 @@ Global
 		{12C9EA47-6E82-4DBB-9D31-EAA3CB517376}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12C9EA47-6E82-4DBB-9D31-EAA3CB517376}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12C9EA47-6E82-4DBB-9D31-EAA3CB517376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FD0FF7-EF7B-4FC2-BBC5-5EEB7F703144}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FD0FF7-EF7B-4FC2-BBC5-5EEB7F703144}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FD0FF7-EF7B-4FC2-BBC5-5EEB7F703144}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FD0FF7-EF7B-4FC2-BBC5-5EEB7F703144}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_NeutralResourcesLanguage = en-GB
 		SolutionGuid = {15E1532B-2D5E-4BCC-98B1-2C1D45121660}
 	EndGlobalSection
 EndGlobal

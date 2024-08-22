@@ -12,7 +12,6 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
-using System.Threading.Tasks;
 using MeaMod.Utilities.Security.Resources;
 
 namespace MeaMod.Utilities.Security
@@ -328,7 +327,6 @@ namespace MeaMod.Utilities.Security
         /// </summary>
         /// <param name="relativePath">Relative path of file found in catalog.</param>
         /// <param name="fileHash">Hash of file found in catalog.</param>
-        /// <param name="excludedPatterns">Skip file from validation if it matches these patterns.</param>
         /// <param name="catalogHashes">Collection of hashes of catalog.</param>
         /// <returns>Void.</returns>
         internal static void ProcessCatalogFile(string relativePath, string fileHash, ref Dictionary<string, string> catalogHashes)
@@ -375,9 +373,8 @@ namespace MeaMod.Utilities.Security
         /// <param name="folderPaths">Path to folder or File.</param>
         /// <param name="catalogFilePath">Catalog file path it should be skipped when calculating the hashes.</param>
         /// <param name="hashAlgorithm">Used to calculate Hash.</param>
-        /// <param name="excludedPatterns"></param>
         /// <returns>Dictionary mapping file relative paths to hashes..</returns>
-        internal static async Task<Dictionary<string, string>> CalculateHashesFromPath(Collection<string> folderPaths, string catalogFilePath, string hashAlgorithm)
+        internal static Dictionary<string, string> CalculateHashesFromPath(Collection<string> folderPaths, string catalogFilePath, string hashAlgorithm)
         {
             // Create a HashTable of file Hashes
             Dictionary<string, string> fileHashes = new Dictionary<string, string>(StringComparer.CurrentCultureIgnoreCase);
@@ -458,7 +455,7 @@ namespace MeaMod.Utilities.Security
         /// <param name="catalogFolders">Folder for which catalog is created.</param>
         /// <param name="catalogFilePath">File Name of the Catalog.</param>
         /// <returns>Information about Catalog.</returns>
-        public static async Task<CatalogInformation> Validate(Collection<string> catalogFolders, string catalogFilePath)
+        public static CatalogInformation Validate(Collection<string> catalogFolders, string catalogFilePath)
         {
             Dictionary<string, string> catalogHashes = GetHashesFromCatalog(catalogFilePath, out var catalogVersion);
             string hashAlgorithm = GetCatalogHashAlgorithm(catalogVersion);
@@ -466,7 +463,7 @@ namespace MeaMod.Utilities.Security
             //Return if no hash algorithms are  found
             if (string.IsNullOrEmpty(hashAlgorithm)) return null;
 
-            Dictionary<string, string> fileHashes = await CalculateHashesFromPath(catalogFolders, catalogFilePath, hashAlgorithm);
+            Dictionary<string, string> fileHashes = CalculateHashesFromPath(catalogFolders, catalogFilePath, hashAlgorithm);
             
             CatalogInformation catalog = new CatalogInformation
             {

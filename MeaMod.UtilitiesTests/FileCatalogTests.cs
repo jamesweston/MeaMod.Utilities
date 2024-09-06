@@ -15,13 +15,21 @@ namespace MeaMod.Utilities.Tests
         [
             CatalogFolder
         ];
+        private static readonly Progress<CatalogProgress> ProgressDownloadIndicator = new Progress<CatalogProgress>(ValidateProgress);
+
+        public static void ValidateProgress(CatalogProgress obj)
+        {
+            Debug.WriteLine(obj.Stage);
+            Debug.WriteLine(obj.HashAlgorithm);
+            Debug.WriteLine(obj.CurrentItem);
+            Debug.WriteLine(obj.Processed + @" / " + obj.Total);
+        }
 
         [TestMethod()]
         public void ValidateTestValidUnsigned()
         {
             var catalogFile = System.IO.Path.Combine(Path, "vlc_valid.cat");
-
-            CatalogInformation catalogInfo = FileCatalog.Validate(Paths, catalogFile);
+            CatalogInformation catalogInfo = FileCatalog.Validate(Paths, catalogFile,ProgressDownloadIndicator);
             Assert.IsNotNull(catalogInfo);
             Assert.IsTrue(catalogInfo.Signature.Status == SignatureStatus.NotSigned);
             Assert.IsTrue(catalogInfo.Status == CatalogValidationStatus.Valid);
@@ -30,7 +38,7 @@ namespace MeaMod.Utilities.Tests
         public void ValidateTestValidSigned()
         {
             var catalogFile = System.IO.Path.Combine(Path, "vlc_valid_signed.cat");
-            CatalogInformation catalogInfo = FileCatalog.Validate(Paths, catalogFile);
+            CatalogInformation catalogInfo = FileCatalog.Validate(Paths, catalogFile,ProgressDownloadIndicator);
             Assert.IsNotNull(catalogInfo);
             Assert.IsTrue(catalogInfo.Signature.Status == SignatureStatus.Valid);
             Assert.IsTrue(catalogInfo.Status == CatalogValidationStatus.Valid);
@@ -40,7 +48,7 @@ namespace MeaMod.Utilities.Tests
         public void ValidateTestInvalidSigned()
         {
             var catalogFile = System.IO.Path.Combine(Path, "vlc_invalid_signed.cat");
-            CatalogInformation catalogInfo = FileCatalog.Validate(Paths, catalogFile);
+            CatalogInformation catalogInfo = FileCatalog.Validate(Paths, catalogFile,ProgressDownloadIndicator);
             Assert.IsNotNull(catalogInfo);
             Assert.IsTrue(catalogInfo.Signature.Status == SignatureStatus.Valid);
             Assert.IsTrue(catalogInfo.Status == CatalogValidationStatus.ValidationFailed);
@@ -50,7 +58,7 @@ namespace MeaMod.Utilities.Tests
         public void ValidateTestInvalidSignedInvalid()
         {
             var catalogFile = System.IO.Path.Combine(Path, "vlc_invalid_signed_invalid.cat");
-            CatalogInformation catalogInfo = FileCatalog.Validate(Paths, catalogFile);
+            CatalogInformation catalogInfo = FileCatalog.Validate(Paths, catalogFile,ProgressDownloadIndicator);
             Assert.IsNotNull(catalogInfo);
             Assert.IsTrue(catalogInfo.Signature.Status == SignatureStatus.NotSigned);
             Assert.IsTrue(catalogInfo.Status == CatalogValidationStatus.ValidationFailed);
@@ -60,7 +68,7 @@ namespace MeaMod.Utilities.Tests
         public void ValidateTestInvalidUnsigned()
         {
             var catalogFile = System.IO.Path.Combine(Path, "vlc_invalid.cat");
-            CatalogInformation catalogInfo = FileCatalog.Validate(Paths, catalogFile);
+            CatalogInformation catalogInfo = FileCatalog.Validate(Paths, catalogFile,ProgressDownloadIndicator);
             Assert.IsNotNull(catalogInfo);
             Assert.IsTrue(catalogInfo.Signature.Status == SignatureStatus.NotSigned);
             Assert.IsTrue(catalogInfo.Status == CatalogValidationStatus.ValidationFailed);

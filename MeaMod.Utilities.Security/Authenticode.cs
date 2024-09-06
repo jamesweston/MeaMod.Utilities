@@ -6,7 +6,6 @@ using System.ComponentModel;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
-using Microsoft.Security.Extensions;
 
 namespace MeaMod.Utilities.Security
 {
@@ -34,125 +33,8 @@ namespace MeaMod.Utilities.Security
         /// </exception>
         internal static Signature GetSignature(string fileName, byte[] fileContent)
         {
-            Signature signature = null;
-
-            if (fileContent == null)
-            {
-                // First, try to get the signature from the latest dotNet signing API.
-                signature = GetSignatureFromMSSecurityExtensions(fileName);
-            }
-
-            // If there is no signature or it is invalid, go by the file content
-            // with the older WinVerifyTrust APIs.
-            if ((signature == null) || (signature.Status != SignatureStatus.Valid))
-            {
-                signature = GetSignatureFromWinVerifyTrust(fileName, fileContent);
-            }
-
-            return signature;
+            return GetSignatureFromWinVerifyTrust(fileName, fileContent);;
         }
-
-        /// <summary>
-        /// Gets the file signature using the dotNet Microsoft.Security.Extensions package.
-        /// This supports both Windows catalog file signatures and embedded file signatures.
-        /// But it is not supported on all Windows platforms/skus, noteably Win7 and nanoserver.
-        /// </summary>
-        private static Signature GetSignatureFromMSSecurityExtensions(string filename)
-        {
-#if UNIX
-            return null;
-#else
-            if (Signature.CatalogApiAvailable.HasValue && !Signature.CatalogApiAvailable.Value)
-            {
-                return null;
-            }
-
-            Utils.CheckArgForNullOrEmpty(filename, "fileName");
-            SecuritySupport.CheckIfFileExists(filename);
-
-            Signature signature = null;
-            FileSignatureInfo fileSigInfo;
-            using (FileStream fileStream = File.OpenRead(filename))
-            {
-                try
-                {
-                    fileSigInfo = FileSignatureInfo.GetFromFileStream(fileStream);
-                    System.Diagnostics.Debug.Assert(fileSigInfo is not null, "Returned FileSignatureInfo should never be null.");
-                }
-                catch (Exception)
-                {
-                    // For any API error, enable fallback to WinVerifyTrust APIs.
-                    Signature.CatalogApiAvailable = false;
-                    return null;
-                }
-            }
-
-            uint error = GetErrorFromSignatureState(fileSigInfo.State);
-
-            if (fileSigInfo.SigningCertificate is null)
-            {
-                signature = new Signature(filename, error);
-            }
-            else
-            {
-                signature = fileSigInfo.TimestampCertificate is null ?
-                    new Signature(filename, error, fileSigInfo.SigningCertificate) :
-                    new Signature(filename, error, fileSigInfo.SigningCertificate, fileSigInfo.TimestampCertificate);
-            }
-
-            switch (fileSigInfo.Kind)
-            {
-                case SignatureKind.None:
-                    signature.SignatureType = SignatureType.None;
-                    break;
-
-                case SignatureKind.Embedded:
-                    signature.SignatureType = SignatureType.Authenticode;
-                    break;
-
-                case SignatureKind.Catalog:
-                    signature.SignatureType = SignatureType.Catalog;
-                    break;
-
-                default:
-                    System.Diagnostics.Debug.Fail("Signature type can only be None, Authenticode or Catalog.");
-                    break;
-            }
-
-            signature.IsOSBinary = fileSigInfo.IsOSBinary;
-
-            if (signature.SignatureType == SignatureType.Catalog && !Signature.CatalogApiAvailable.HasValue)
-            {
-                Signature.CatalogApiAvailable = fileSigInfo.State != SignatureState.Invalid;
-            }
-
-            return signature;
-#endif
-        }
-
-#if !UNIX
-        private static uint GetErrorFromSignatureState(SignatureState signatureState)
-        {
-            switch (signatureState)
-            {
-                case SignatureState.Unsigned:
-                    return Win32Errors.TRUST_E_NOSIGNATURE;
-
-                case SignatureState.SignedAndTrusted:
-                    return Win32Errors.NO_ERROR;
-
-                case SignatureState.SignedAndNotTrusted:
-                    return Win32Errors.TRUST_E_EXPLICIT_DISTRUST;
-
-                case SignatureState.Invalid:
-                    return Win32Errors.TRUST_E_BAD_DIGEST;
-
-                default:
-                    System.Diagnostics.Debug.Fail("Should not get here - could not map FileSignatureInfo.State");
-                    return Win32Errors.TRUST_E_NOSIGNATURE;
-            }
-        }
-#endif
 
         private static Signature GetSignatureFromWinVerifyTrust(string fileName, byte[] fileContent)
         {
